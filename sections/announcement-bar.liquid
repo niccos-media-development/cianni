@@ -15,7 +15,7 @@
         <div class="swiper-slide" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'announcement_bar' -%}
-              {%- if shop.metafields.custom.secret_sale -%}
+              {%- if collection.metafields.custom.secret_sale -%}
                 {%- if block.settings['secret-link'] != blank -%}
                   <a class="announcement-bar__content rte text-center" href="{{ block.settings.secret-link }}">
                 {%- else -%}
