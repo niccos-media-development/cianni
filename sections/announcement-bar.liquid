@@ -15,19 +15,40 @@
         <div class="swiper-slide" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'announcement_bar' -%}
-              {%- if block.settings.link != blank -%}
-                <a class="announcement-bar__content rte text-center" href="{{ block.settings.link }}">
-              {%- else -%}
-                <div class="announcement-bar__content rte text-center">
-              {%- endif -%}
-              {%- if block.settings.text != blank -%}
-                <p class="announcement-bar__text">{{ block.settings.text }}</p>
-              {%- endif -%}
-              {%- if block.settings.link != blank -%}
-                </a>
-              {%- else -%}
-                </div>
-              {%- endif -%}
+  {%- if shop.metafields.custom.secret_sale -%}
+    {%- if block.settings.secret-link != blank -%}
+      <a class="announcement-bar__content rte text-center" href="{{ block.settings.secret-link }}">
+    {%- else -%}
+      <div class="announcement-bar__content rte text-center">
+    {%- endif -%}
+
+    {%- if block.settings.secret-text != blank -%}
+      <p class="announcement-bar__text">{{ block.settings.secret-text }}</p>
+    {%- endif -%}
+
+    {%- if block.settings.secret-link != blank -%}
+      </a>
+    {%- else -%}
+      </div>
+    {%- endif -%}
+
+  {%- else -%}
+    {%- if block.settings.link != blank -%}
+      <a class="announcement-bar__content rte text-center" href="{{ block.settings.link }}">
+    {%- else -%}
+      <div class="announcement-bar__content rte text-center">
+    {%- endif -%}
+
+    {%- if block.settings.text != blank -%}
+      <p class="announcement-bar__text">{{ block.settings.text }}</p>
+    {%- endif -%}
+
+    {%- if block.settings.link != blank -%}
+      </a>
+    {%- else -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
             {%- when 'timer' -%}
               <div class="countdown__wrapper announcement-bar__content announcement-bar__timer flex items-center justify-between sm:justify-center gap-2 md:gap-4">
                 {%- if block.settings.text != blank -%}
@@ -160,6 +181,17 @@
         {
           "type": "url",
           "id": "link",
+          "label": "t:sections.all.link.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "secret-text",
+          "label": "t:sections.all.text.label",
+          "default": "Welcome to our store"
+        },
+        {
+          "type": "url",
+          "id": "secret-link",
           "label": "t:sections.all.link.label"
         }
       ]
