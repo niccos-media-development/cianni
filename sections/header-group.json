@@ -86,7 +86,7 @@
         "announcement_bar_RKBMUF": {
           "type": "announcement_bar",
           "settings": {
-            "text": "",
+            "text": "Kostenloser Versand",
             "link": "",
             "secret-text": "Secret Sale bis Freitag",
             "secret-link": ""
