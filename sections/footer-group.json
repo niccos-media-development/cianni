@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_3qCrWc": {
+          "type": "newsletter",
+          "settings": {
+            "block_width": 41,
+            "heading": "Sichere dir 10% Rabatt auf deine erste Bestellung",
+            "heading_size": "h2",
+            "newsletter_description": "<p>Erfahre als erstes von neuen Düften und Aktionen.</p>",
+            "newsletter_term": "",
+            "newsletter_text_alignment": "left",
+            "form_width": 465,
+            "order_first": true
+          }
+        },
+        "image_text_F3FNhx": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 25,
+            "heading": "Über uns",
+            "heading_size": "h4",
+            "image_width": 150,
+            "text": "<p>Wir haben es uns zur Aufgabe gemacht, dir den edelsten Duft zum kleinsten Preis anzubieten.</p>",
+            "button_label": "mehr dazu",
+            "button_link": "shopify://pages/uber-uns",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_DEKGYP": {
+          "type": "menu",
+          "settings": {
+            "block_width": 17,
+            "heading": "Hilfe und Kontakt",
+            "heading_size": "h4",
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_3qCrWc",
+        "image_text_F3FNhx",
+        "menu_DEKGYP"
+      ],
+      "custom_css": [
+        ".form-control {--color-border: var(--color-field);}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "payment_icons": "paypal, klarna, visa, master, american-express",
+        "footer_bottom_menu": "fu-zeilenmen-1",
+        "show_section_divider": true,
+        "divider_width": "full"
+      }
+    },
+    "mobile_sticky_bar_aYhgJK": {
+      "type": "mobile-sticky-bar",
+      "blocks": {
+        "home_AP8mmy": {
+          "type": "home",
+          "settings": {
+            "text": "Home"
+          }
+        },
+        "search_n3h4zT": {
+          "type": "search",
+          "settings": {
+            "text": "Search"
+          }
+        },
+        "cart_gnnwxQ": {
+          "type": "cart",
+          "settings": {
+            "text": "Cart"
+          }
+        },
+        "products_eYYkE8": {
+          "type": "products",
+          "settings": {
+            "text": "Alle Düfte",
+            "collection": "alle-duefte"
+          }
+        }
+      },
+      "block_order": [
+        "home_AP8mmy",
+        "search_n3h4zT",
+        "cart_gnnwxQ",
+        "products_eYYkE8"
+      ],
+      "settings": {
+        "enable_sticky_bar": true,
+        "show_text": false
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "mobile_sticky_bar_aYhgJK"
+  ]
+}

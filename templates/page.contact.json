@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_xYaBHj": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_X4egXC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bhmx99": {
+          "type": "heading",
+          "settings": {
+            "heading": "Diese Probleme kannst du sofort lösen",
+            "heading_size": "h2",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_Wea3XJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir möchten deine Probleme und Fragen schnellstmöglich lösen und haben daher kurze Formulare entwickelt, die dir ermöglichen, die häufigsten Probleme innerhalb von weniger als 5 Minuten selbst zu lösen, ohne dass du den Support kontaktieren musst.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bhmx99",
+        "text_Wea3XJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_JTHDHp": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_LRGHCY": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie lange dauert meine Lieferung?",
+            "content": "<p>Der Versand dauert in der Regel 1-3 Werktage</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_yce4MX": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie kann ich meine Bestellung verfolgen?",
+            "content": "<p>Nachdem dein Paket versandt wurde, erhältst du eine Mail mit der zugehörigen Sendungsnummer. Alternativ kannst du auch <a href=\"https://cianni.de/apps/tracking?\" title=\"https://cianni.de/apps/tracking?\">hier</a> deine Sendung verfolgen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_bK4TD9": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Was tun, wenn sich der Lieferstatus nicht ändert?",
+            "content": "<p>Das Versandunternehmen benötigt eine gewisse Zeit um deine Daten auszuwerten und zu aktualisieren.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_kzFzHn": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wurde mein Paket schon versendet?",
+            "content": "<p>Sobald dein Paket versandt wurde, erhältst du eine Mail als Versandbestätigung.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_nk6axp": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wo finde ich meine Sendungsnummer?",
+            "content": "<p>Deine Sendungsnummer bekommst du mit der Mail für die Versandbestätigung.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_A9jdAD": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Was tun bei einer fehlerhaften Bestellung?",
+            "content": "<p>Keine Sorge, das bekommen wir geregelt. Schreib uns einfach eine E-Mail an <a>support@cianni.de</a> oder nutze das untere Kontaktformular, damit der Support dein Anliegen bearbeiten kann.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_UDgbTT": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie kann ich meine Bestellung zurücksenden?",
+            "content": "<h6>ChatGPT:</h6><p>Lege dein erhaltenes Produkt in ein geeignetes Versandpaket und füge das ausgefüllte Rücksendeformular <a href=\"https://cdn.shopify.com/s/files/1/0759/6048/4179/files/Retourenschein_Cianni.pdf?v=1703264662\" title=\"https://cdn.shopify.com/s/files/1/0759/6048/4179/files/Retourenschein_Cianni.pdf?v=1703264662\"><strong>hier</strong></a> bei, damit wir deine Bestellung zuordnen können. Versende dein Paket ausschließlich über einen Paketdienstleister (z.B. DHL, Hermes, etc.) an folgende Adresse:</p><p>Cianni Fragrances<br/>Forststraße 49<br/>40721 Hilden<br/><br/>Sobald dein Paket bei uns eingegangen ist, prüfen wir den Artikel und überweisen dir dein Guthaben innerhalb von 14 Tagen auf die Zahlungsmethode, mit der du das Produkt gekauft hast. Beachte bitte, dass das Produkt nur einmal zum Testen gesprüht wurde. Alle Artikel, die mehr benutzt wurden, können wir nicht annehmen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_LRGHCY",
+        "collapsible_item_yce4MX",
+        "collapsible_item_bK4TD9",
+        "collapsible_item_kzFzHn",
+        "collapsible_item_nk6axp",
+        "collapsible_item_A9jdAD",
+        "collapsible_item_UDgbTT"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-3",
+        "header_layout": "vertical",
+        "heading": "Fragen & Antworten",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_JFmRTp": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yiUAR7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir hoffen, dass du dort die gewünschten Antworten finden konntest. Falls du dennoch Fragen hast oder unsere Hilfe benötigst, zögere bitte nicht, unseren Support unter <strong>'</strong><a><strong>support@cianni.de</strong></a><strong>'</strong> zu kontaktieren oder das Kontaktformular hier zu nutzen.</p><p>Unser Team steht dir gerne zur Verfügung und wird versuchen, dir so schnell wie möglich weiterzuhelfen. Vielen Dank, dass du uns vertraust. Wir freuen uns darauf, von dir zu hören.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "text_yiUAR7"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "custom_field_b7LBQa": {
+          "type": "custom_field",
+          "settings": {
+            "field_type": "text",
+            "heading": "Bestellnummer",
+            "placeholder": "#CN...",
+            "required": true,
+            "full_width": false,
+            "select_options": "",
+            "checkbox_checked_value": "Yes",
+            "checkbox_uncheck_value": "No",
+            "radio_options": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_field_b7LBQa"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.card-media {border-radius: 0; }}",
+        "@media (max-width: 767px) {.contact-form {padding-block-end: 0; } .contact-form__wrapper {border-radius: 0; margin-left: -1.5rem; margin-right: -1.5rem; } .card-media {padding: 0 1.5rem 4.8rem; }}"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "heading": "Kontaktformular",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_xYaBHj",
+    "main",
+    "rich_text_X4egXC",
+    "collapsible_tabs_JTHDHp",
+    "rich_text_JFmRTp",
+    "form"
+  ]
+}

@@ -1,0 +1,104 @@
+{% comment %}
+  Section: Bewertungen
+  Purpose: Display product-related reviews using metaobjects.
+{% endcomment %}
+
+{% assign reviews = product.metafields.custom.reviews %}
+{% if reviews and reviews.value %}
+  <div class="page-width" id="product-reviews">
+    <h2 class="reviews-title">Bewertungen</h2>
+
+    <ul class="reviews-list">
+      {% for review_ref in reviews.value %}
+        <li class="review">
+          <h3 class="reviews-author">{{ review_ref.author }}</h3>
+          <div class="product__stars">
+            {% for star in (0..4) -%}
+              <span class="star">
+                {% if star <= review_ref.stars %}
+                  <span class="fa fa-star"></span>
+                {% else %}
+                  <span class="fa fa-star-o"></span>
+                {% endif %}
+              </span>
+            {%- endfor %}
+
+            <strong>({{ review_ref.stars }})</strong>
+          </div>
+          <p>{{ review_ref.content }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+<style>
+  .reviews-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .reviews-author {
+    font-size: 16px;
+  }
+
+  .product__stars {
+    display: flex;
+  }
+
+  .reviews-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .review {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Produkt Bewertungen",
+  "settings": [
+    {
+      "type": "text",
+      "id": "no_reviews_text",
+      "label": "Text for No Reviews",
+      "default": "No reviews available for this product."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Bewertung",
+      "settings": [
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author Name",
+          "default": "Author Name"
+        },
+        {
+          "type": "number",
+          "id": "rating",
+          "label": "Rating"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "Content",
+          "default": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Produkt Bewertungen"
+    }
+  ]
+}
+{% endschema %}

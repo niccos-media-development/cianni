@@ -1,0 +1,21 @@
+<div class="product-payment-icons">
+  {% if block.settings.show_all_payment_icons %}
+    {% for type in shop.enabled_payment_types %}
+      {{ type | payment_type_svg_tag }}
+    {% endfor %}
+  {% else %}
+    {% assign payment_icons = block.settings.payment_icons | split: ', ' %}
+    {% for type in payment_icons %}
+      {{ type | payment_type_svg_tag }}
+    {% endfor %}
+  {% endif %}
+</div>
+
+{% style %}
+  .product-payment-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+  }
+{% endstyle %}
