@@ -1,1 +1,1191 @@
-{"sections":{"slideshow_qQD39e":{"type":"slideshow","blocks":{"video_MMt8Mb":{"type":"video","settings":{"color_scheme":"scheme-1","video_url":"https:\/\/www.youtube.com\/watch?v=nu_FXVxkLlM","cover_image":"shopify:\/\/shop_images\/titelbild_x75_fab60c1d-b4b2-4588-ba83-171b6f4b57fe.jpg","video_description":"","image_overlay_opacity":0,"content_position":"middle-center","text_alignment":"center","title":"Zahle für den Duft, nicht für die Marke","heading_size":"h3","subheading":"","description":"<p>Duftwillinge deiner Lieblingsdüfte. Langanhaltend. Intensiv. Höchste Qualität<\/p>","description_size":"text-base","button_label":"Herren","button_link":"shopify:\/\/collections\/herren","button_style":"btn--primary","button_label_2":"Damen","button_link_2":"shopify:\/\/collections\/damen","button_style_2":"btn--primary"}}},"block_order":["video_MMt8Mb"],"settings":{"container":"full","layout":"standard","slide_height":"large","show_dots":true,"autoplay":false,"autoplay_delay":10,"controls_position":"bottom","show_text_below":true,"text_alignment_mobile":"center","accessibility_info":"Slideshow about our brand"}},"ss_circle_menu_XY7TmW":{"type":"ss-circle-menu","blocks":{"image_3Vr9Q4":{"type":"Image","settings":{"bubble_text":"60% Rabatt auf Bundles","bubble_link":""}},"image_3HqeRr":{"type":"Image","settings":{"bubble_text":"50% Rabatt auf Düfte","bubble_link":""}},"image_qd6zt6":{"type":"Image","settings":{"bubble_text":"Zum Quiz","bubble_link":""}},"image_jbxnP4":{"type":"Image","settings":{"bubble_text":"Bestseller","bubble_link":""}},"image_k43Lza":{"type":"Image","settings":{"bubble_text":"Neuheiten","bubble_link":""}}},"block_order":["image_3Vr9Q4","image_3HqeRr","image_qd6zt6","image_jbxnP4","image_k43Lza"],"disabled":true,"settings":{"slider_width":100,"slider_gap":16,"slider_gap_mobile":16,"icon_size":108,"icon_size_mobile":74,"icon_space":0,"icon_space_mobile":0,"icon_border_thickness":1,"icon_square":false,"text_custom":false,"text_font":"josefin_sans_n4","text_size":12,"text_size_mobile":10,"text_height":130,"text_mt":8,"icon_border_color":"#000000","icon_border_gradient":"","text_color":"#000000","background_color":"#ffffff","background_gradient":"","border_color":"#000000","border_gradient":"","margin_top":0,"margin_bottom":0,"padding_top":16,"padding_bottom":24,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":150,"border_thickness":0,"lazy":true,"hide_mobile":false,"hide_desktop":true}},"custom_liquid_QFdccV":{"type":"custom-liquid","settings":{"custom_liquid":"","color_scheme":"","padding_top":50,"padding_bottom":50}},"product_tabs_iJHLzK":{"type":"product-tabs","blocks":{"tab_Yz8Mnz":{"type":"tab","settings":{"title":"Bestseller","collection":"bestseller"}},"tab_9cGBUe":{"type":"tab","settings":{"title":"Herrendüfte","collection":"herren"}},"tab_AfgNn8":{"type":"tab","settings":{"title":"Damendüfte","collection":"damen"}},"tab_TDL4dR":{"type":"tab","disabled":true,"settings":{"title":"Frische Düfte","collection":""}},"tab_HFdhWh":{"type":"tab","disabled":true,"settings":{"title":"Holzige Düfte","collection":""}}},"block_order":["tab_Yz8Mnz","tab_9cGBUe","tab_AfgNn8","tab_TDL4dR","tab_HFdhWh"],"settings":{"color_scheme":"scheme-1","header_layout":"horizontal","heading":"","heading_size":"h3","heading_highlight_style":"none","limit":8,"columns":5,"column_gap":"extra-small","row_gap":"inherit","grid_layout":"standard","pcard_image_ratio":"","columns_mobile":"2","swipe_on_mobile":false,"show_all_button_on_top":true,"button_label":"Alle Düfte","button_link":"shopify:\/\/collections\/alle-duefte","button_style":"btn--underline","tabs_nav_style":"design-1","padding_top":20,"padding_bottom":0,"show_section_divider":false,"divider_width":"fixed"}},"image_with_text_Cqamy9":{"type":"image-with-text","blocks":{"heading_7tETnC":{"type":"heading","settings":{"heading":"Finde deinen perfekten Duft","heading_size":"h1","heading_highlight_style":"none"}},"text_VnY743":{"type":"text","settings":{"text":"<p>Du bist unsicher, welcher Duft perfekt zu dir passt? Beantworte einfach 3 Fragen und finde deinen neuen Lieblingsduft!<\/p>","text_size":"text-base"}},"button_agnWpy":{"type":"button","settings":{"button_label":"QUIZ STARTEN","button_link":"https:\/\/1366a3.myshopify.com\/tools\/perfect-product-finder\/duft-finder","button_style":"btn--primary"}}},"block_order":["heading_7tETnC","text_VnY743","button_agnWpy"],"settings":{"section_color_scheme":"","color_scheme":"","image":"shopify:\/\/shop_images\/Quiz_Bild1.jpg","image_height":"adapt","layout":"image_first","desktop_content_position":"center","desktop_content_alignment":"center","enable_parallax":false,"parallax_direction":"vertical","mobile_content_alignment":"center","padding_top":50,"padding_bottom":50,"show_section_divider":false,"divider_width":"fixed"}},"rich_text_jJc8m4":{"type":"rich-text","blocks":{"heading_Xny6NQ":{"type":"heading","disabled":true,"settings":{"heading":"Schaue in die Duftnoten","heading_size":"h4","heading_highlight_style":"none"}}},"block_order":["heading_Xny6NQ"],"disabled":true,"settings":{"color_scheme":"scheme-1","content_alignment":"center","padding_top":50,"padding_bottom":50,"show_section_divider":false,"divider_width":"fixed"}},"collection_list_Pr36qH":{"type":"collection-list","blocks":{"featured_collection_inyzwk":{"type":"featured_collection","settings":{"collection":"tf-dufte","image":"shopify:\/\/shop_images\/6_8d05e83b-eee2-43b6-b5d4-58a0aa40d52e.jpg","title":"","description":""}},"featured_collection_H3VHEr":{"type":"featured_collection","settings":{"collection":"lv-dufte","image":"shopify:\/\/shop_images\/7_33325eef-1933-4c1c-9a8e-52dc133cfd99.jpg","title":"","description":""}},"featured_collection_RAgx3R":{"type":"featured_collection","settings":{"collection":"xj-dufte","image":"shopify:\/\/shop_images\/1_d2477d7c-9683-49d0-b8ac-d970bc5ca723.jpg","title":"","description":""}},"featured_collection_VHfaMD":{"type":"featured_collection","settings":{"collection":"byr-dufte","image":"shopify:\/\/shop_images\/3_4285a502-528c-42c6-9a51-0521ff2c1872.jpg","title":"","description":""}},"featured_collection_ytHAXL":{"type":"featured_collection","settings":{"collection":"kil-dufte","image":"shopify:\/\/shop_images\/4_b5d4b458-136e-4b75-98aa-fa155faeb216.jpg","title":"","description":""}},"featured_collection_mzqaBn":{"type":"featured_collection","settings":{"collection":"pdm-dufte","image":"shopify:\/\/shop_images\/2_719f2924-0af6-40c1-99e9-1a015b0d9534.jpg","title":"","description":""}}},"block_order":["featured_collection_inyzwk","featured_collection_H3VHEr","featured_collection_RAgx3R","featured_collection_VHfaMD","featured_collection_ytHAXL","featured_collection_mzqaBn"],"settings":{"color_scheme":"scheme-3","layout":"split","subheading":"Wonach suchst du?","heading":"Wir haben alle.","heading_size":"h3","heading_highlight_style":"none","description":"","text_size":"text-base","card_color_inherited":false,"show_product_count":false,"show_icon":false,"card_style":"","card_image_ratio":"adapt","content_alignment":"left","columns_desktop":3,"column_gap":"medium","row_gap":"medium","enable_slider":true,"columns_mobile":"1","swipe_on_mobile":true,"padding_top":100,"padding_bottom":100,"show_section_divider":false,"divider_width":"fixed"}},"ss_testimonial_8_8JHay4":{"type":"ss-testimonial-8","blocks":{"slide_XbkMRD":{"type":"slide","settings":{"stars_count":5,"heading":"Ihr müsst es einfach testen","text":"Das ist kein daher gelaufener Duftzwilling Anbieter Leute, dass sind wirklich wirklich gute Düfte, ich weiß nicht was deren Geheimnis ist, aber die Düfte sind extrem gut, hab oft Dupes gekauft, aber nie so eine Qualität gesehen, ehrlich.","author_date":"Jessica T."}},"slide_FBTQrY":{"type":"slide","settings":{"stars_count":5,"heading":"Wenn einer Duftzwillinge wirklich gut kann","text":"Wenn einer Duftzwillinge wirklich gut kann, dann ist Cianni Fragrances, hatte über die Zeit mich schon oft mit Dupes probiert, aber war zuvor nie wirklich zufrieden. Bis ich auf Cianni kam, tolle Düfte mit einer super Haltbarkeit, Hut ab :)","author_date":"Christopher J."}},"slide_wVfWP7":{"type":"slide","settings":{"stars_count":5,"heading":"Freundlicher und schneller Service","text":"Geniale und lang Anhaltende Düfte. Service von Cianni schnell, freundlich und sehr hilfreich. Das war nicht meine letzte Bestellung. Danke Leute.","author_date":"Tim Bloch"}},"slide_hE7ACt":{"type":"slide","settings":{"stars_count":5,"heading":"Ich bin positiv überrascht!","text":"Ich bin positiv überrascht von der Qualität der Duftzwillinge! Die Düfte sind den Originalen sehr ähnlich und halten erstaunlich lange. Für den Preis eine wirklich tolle Alternative zu teuren Markenparfums. Werde definitiv wieder bestellen!!!","author_date":"Svenja V."}},"slide_Rzntmx":{"type":"slide","settings":{"stars_count":5,"heading":"Habe eine Flasche geschenkt bekommen","text":"Habe eine Flasche geschenkt bekommen und love it. Habe mir direkt noch 2\/3 weitere selber bestellt. Sehr nice Dupes.","author_date":"Silvana S."}},"slide_ECe7xh":{"type":"slide","settings":{"stars_count":5,"heading":"Also, ich war erst unsicher","text":"Also, ich war erst unsicher, aber der 404 hat mich überzeugt. Hält echt lang sogar nach nem stressigen Tag. Nur der Sprüher haut manchmal bisschen viel raus. Sonst top, freu mich auf die neuen Düfte!","author_date":"Cansu T."}}},"block_order":["slide_XbkMRD","slide_FBTQrY","slide_wVfWP7","slide_hE7ACt","slide_Rzntmx","slide_ECe7xh"],"settings":{"heading":"","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":40,"heading_size_mobile":24,"heading_height":130,"heading_align":"center","rating_text":"Hervorragend","rating_text_custom":false,"rating_text_font":"josefin_sans_n4","rating_text_size":24,"rating_text_size_mobile":20,"rating_text_height":130,"rating_text_mt":16,"rating":4.9,"rating_hide":false,"rating_text_hide":false,"rating_align":"center","stars_count":5,"stars_size":28,"stars_size_mobile":24,"stars_align":"center","text":"","text_custom":false,"text_font":"josefin_sans_n4","text_size":20,"text_size_mobile":16,"text_height":130,"text_align":"center","text_mt":16,"slider_width":80,"slider_view":3,"slider_view_mobile":1.2,"slider_gap":20,"slider_gap_mobile":20,"slider_mt":36,"card_padding_vertical":32,"card_padding_vertical_mobile":24,"card_padding_horizontal":40,"card_padding_horizontal_mobile":24,"card_radius":16,"card_border_thickness":0,"card_shadow":true,"card_heading_custom":false,"card_heading_font":"josefin_sans_n4","card_heading_size":24,"card_heading_size_mobile":20,"card_heading_height":130,"card_heading_align":"center","card_heading_mt":16,"card_text_custom":false,"card_text_font":"josefin_sans_n4","card_text_size":14,"card_text_size_mobile":14,"card_text_height":150,"card_text_align":"center","card_text_mt":16,"card_text_more":"Mehr anzeigen","card_text_less":"Weniger Anzeigen","card_count_words":20,"card_author_date_text_custom":false,"card_author_date_text_font":"josefin_sans_n4","card_author_date_text_size":16,"card_author_date_text_size_mobile":16,"card_author_date_text_height":50,"card_author_date_text_align":"center","card_author_date_text_mt":16,"arrow_size":50,"arrow_size_mobile":50,"arrow_icon_size":28,"arrow_icon_size_mobile":28,"arrow_border_thickness":0,"arrow_show_desktop":true,"arrow_show_mobile":false,"dots_size":12,"dots_size_mobile":12,"dots_show_desktop":false,"dots_show_mobile":false,"button":"","button_url":"","button_custom":false,"button_font":"josefin_sans_n4","button_size":16,"button_size_mobile":14,"button_height":100,"button_align":"center","button_mt":16,"button_padding_vertical":20,"button_padding_horizontal":16,"button_radius":8,"button_border_thickness":0,"button_color":"#ffffff","button_hover_color":"#ffffff","button_bg_color":"#000000","button_bg_hover_color":"#000000","button_border_color":"#000000","button_border_hover_color":"#000000","card_bg_color":"#ffffff","card_border_color":"#000000","card_shadow_color":"#000000","card_heading_color":"#000000","card_text_color":"#000000","card_author_date_text_color":"#000000","arrow_color":"#000000","arrow_hover_color":"#000000","arrow_bg_color":"#ffffff","arrow_bg_hover_color":"#ffffff","arrow_border_color":"#ffffff","arrow_border_hover_color":"#ffffff","dots_color":"#000000","heading_color":"#000000","rating_text_color":"#000000","stars_bg_color":"#00b67a","stars_color":"#ffffff","text_color":"#000000","background_color":"#ffffff","background_gradient":"linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":60,"padding_bottom":60,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":120,"border_thickness":0,"lazy":true}},"ss_video_socials_xMnbVn":{"type":"ss-video-socials","blocks":{"video_AARaWE":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Video 8 (ohne UT) 2.MP4","poster":"shopify:\/\/shop_images\/3_684d8dfc-1986-4a0d-ba5d-05a1f468294a.jpg","text":"","icon_type":"none"}},"video_TE9qH6":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Video 11 - Bonus (ohne UT) 2.MP4","poster":"shopify:\/\/shop_images\/1_8a0585fc-81e7-40e0-84dc-cf30509a5bf6.jpg","text":"","icon_type":"none"}},"video_wU6tq6":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Video 6 (ohne UT) 2.MP4","poster":"shopify:\/\/shop_images\/5_c0c2e63a-cb4e-404c-b677-f2bf6e863cf5.jpg","text":"","icon_type":"none"}},"video_wwJttf":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Video 9 (ohne UT) 2.MP4","poster":"shopify:\/\/shop_images\/4_ee07cea8-922e-4be3-97f9-5c2f9ce322f4.jpg","text":"","icon_type":"none"}},"video_xXc9Ym":{"type":"video","settings":{"video":"shopify:\/\/files\/videos\/Video 10 (ohne UT) 2.MP4","poster":"shopify:\/\/shop_images\/2_73e93759-96b2-40c7-9a5b-2ca9854b5ead.jpg","text":"","icon_type":"none"}}},"block_order":["video_AARaWE","video_TE9qH6","video_wU6tq6","video_wwJttf","video_xXc9Ym"],"settings":{"heading":"Die besten Dupes","heading_custom":false,"heading_font":"assistant_n4","heading_size":32,"heading_height":200,"heading_align":"center","items_mt":36,"items_mt_mobile":10,"items_type":"columns","items_type_mobile":"slider","columns_row":5,"columns_gap":24,"columns_gap_mobile":24,"slider_nav":"buttons","slider_nav_mobile":"pagination","slider_nav_size":40,"slider_nav_size_mobile":30,"slider_pagination_size":15,"slider_pagination_size_mobile":10,"item_radius":12,"item_border_thickness":0,"item_padding_horizontal":0,"item_padding_vertical":0,"video_size":"large","video_size_mobile":"large","icon_size":60,"icon_padding":15,"content_padding_horizontal":12,"content_padding_vertical":0,"text_custom":false,"text_font":"assistant_n4","text_size":16,"text_height":130,"text_align":"center","link_text":"","link_url":"","link_custom":false,"link_font":"assistant_n4","link_size":18,"link_height":130,"link_align":"center","link_mt":36,"link_radius":12,"link_border_thickness":2,"link_padding_horizontal":50,"link_padding_vertical":16,"hide_arrow":false,"heading_color":"#120a0a","item_bg_color":"#ffffff","item_border_color":"#120a0a","icon_bg_color":"#a5a4ab","icon_color":"#ffffff","text_color":"#120a0a","slider_nav_btn_bg":"#ffffff","slider_nav_btn_hover_bg":"#a5a4ab","slider_nav_border":"#a5a4ab","slider_nav_border_hover":"#a5a4ab","slider_nav_icon":"#a5a4ab","slider_nav_hover_icon":"#ffffff","slider_pagination_color":"#a5a4ab","slider_pagination_hover_color":"#a5a4ab","link_text_color":"#120a0a","link_text_hover_color":"#ffffff","link_bg_color":"#ffffff","link_bg_hover_color":"#120a0a","link_border_color":"#120a0a","link_border_hover_color":"#120a0a","background_color":"#f7f7f7","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":20,"padding_bottom":32,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":130,"border_thickness":0,"lazy":true}},"feature_list_cW3d9c":{"type":"feature-list","blocks":{"feature_item_VbCwL3":{"type":"feature_item","settings":{"color_scheme":"","icon":"check","icon_style":"btn--secondary","text":"Lange Haltbarkeit - über 10h"}},"feature_item_NzxQGa":{"type":"feature_item","settings":{"color_scheme":"","icon":"check","icon_style":"btn--secondary","text":"Intensiver Duft- 25% Ölanteil"}},"feature_item_yyNV9A":{"type":"feature_item","settings":{"color_scheme":"","icon":"check","icon_style":"btn--secondary","text":"Stressfreies Rückgaberecht"}},"feature_item_gBgLft":{"type":"feature_item","settings":{"color_scheme":"","icon":"check","icon_style":"btn--secondary","text":"Made in Germany"}}},"block_order":["feature_item_VbCwL3","feature_item_NzxQGa","feature_item_yyNV9A","feature_item_gBgLft"],"settings":{"color_scheme":"scheme-1","subheading":"","heading":"","heading_size":"h2","heading_highlight_style":"none","description":"","text_size":"text-base","item_alignment":"center","icon_size":"extra-medium","swipe_on_mobile":true,"padding_top":100,"padding_bottom":0,"show_section_divider":false,"divider_width":"fixed"}},"image_with_text_MgddA8":{"type":"image-with-text","blocks":{"subheading_XLgqVJ":{"type":"subheading","settings":{"subheading":""}},"heading_J7mctK":{"type":"heading","settings":{"heading":"Deutschland's Nr. 1 Duftzwillinge","heading_size":"h1","heading_highlight_style":"none"}},"text_A3Dahr":{"type":"text","settings":{"text":"<p>Luxus muss nicht teuer sein! Cianni Fragrances bringt dir die beliebtesten Designer-Düfte als hochwertige Duftzwillinge – mit intensiver 25% Duftölkonzentration, langanhaltend und intensiv. Erlebe exklusiven Düfte, ohne den hohen Preis zu zahlen.<\/p><p><strong>Warum mehr zahlen, wenn du den gleichen Luxus für weniger haben kannst?<\/strong><\/p>","text_size":"text-base"}}},"block_order":["subheading_XLgqVJ","heading_J7mctK","text_A3Dahr"],"settings":{"section_color_scheme":"","color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/titelbild_x75_fab60c1d-b4b2-4588-ba83-171b6f4b57fe.jpg","image_height":"adapt","layout":"text_first","desktop_content_position":"center","desktop_content_alignment":"center","enable_parallax":false,"parallax_direction":"vertical","mobile_content_alignment":"left","padding_top":100,"padding_bottom":0,"show_section_divider":false,"divider_width":"fixed"}},"collapsible_tabs_zhmUJe":{"type":"collapsible-tabs","blocks":{"collapsible_item_Jxdkag":{"type":"collapsible_item","settings":{"icon":"none","heading":"Was genau sind Duftzwillinge?","content":"<p>Wir kreieren Duftkompositionen, die von bekannten Markenparfums inspiriert sind, und setzen dabei auf höchste Qualitätsstandards. So bieten wir unseren Kunden eine erstklassige, aber erschwingliche Alternative zu ihren Lieblingsdüften. Dabei bestehen keinerlei Verbindungen zu den genannten Marken.<\/p>","custom_liquid":"","page":"","open":false}},"collapsible_item_jANFLn":{"type":"collapsible_item","settings":{"icon":"none","heading":"Wie bietet ihr Düfte zu so günstigen Preisen bei gleicher Qualität?","content":"<p>Indem wir auf überflüssige Verpackungen, teure Werbung und hohe Prestige-Aufschläge verzichten, können wir unseren Fokus vollständig auf die Qualität des Duftes legen. So ermöglichen wir ein luxuriöses Dufterlebnis zu einem Bruchteil des Preises.<\/p>","custom_liquid":"","page":"","open":false}},"collapsible_item_x7bCnA":{"type":"collapsible_item","settings":{"icon":"none","heading":"Wie lange halten eure Düfte?","content":"<p>Dank unserer hohen Konzentration von 25% Duftöl halten unsere Düfte auf der Haut oft bis zu 16 Stunden – in einigen Fällen sogar länger als Designerparfums. Die Haltbarkeit kann je nach Duft und Hauttyp variieren, aber viele unserer Kunden berichten von einer besonders langen Duftwirkung.<\/p>","custom_liquid":"","page":"","open":false}},"collapsible_item_8NhhBX":{"type":"collapsible_item","settings":{"icon":"none","heading":"Sind die Inhaltsstoffe in euren Düften sicher für meine Haut?","content":"<p>Absolut! Wir verwenden nur die besten und sichersten Inhaltsstoffe, die alle gründlich getestet wurden. Außerdem sind alle unsere Düfte vegan und frei von Tierversuchen.<\/p>","custom_liquid":"","page":"","open":false}},"collapsible_item_KtgFBR":{"type":"collapsible_item","settings":{"icon":"none","heading":"Habt ihr Düfte sowohl für Frauen als auch für Männer?","content":"<p>Ja, bei uns findest Du eine große Auswahl für jeden Geschmack und jedes Geschlecht. Falls ein bestimmter Duft mal nicht dabei sein sollte,<br\/>können wir dir versichern, dass wir täglich daran arbeiten unsere<br\/>Produktpalette zu erweitern.<\/p>","custom_liquid":"","page":"","open":false}},"collapsible_item_4iGKXk":{"type":"collapsible_item","settings":{"icon":"none","heading":"Wie lange dauert der Versand?","content":"<p>Wir verschicken alle Pakete sofort raus - der anschließende Versandweg dauert in der Regel 1-2 Werktage.<\/p>","custom_liquid":"","page":"","open":false}}},"block_order":["collapsible_item_Jxdkag","collapsible_item_jANFLn","collapsible_item_x7bCnA","collapsible_item_8NhhBX","collapsible_item_KtgFBR","collapsible_item_4iGKXk"],"settings":{"container":"fixed","color_scheme":"","header_layout":"vertical","heading":"Häufige Fragen","heading_size":"h2","heading_highlight_style":"none","subheading":"","description":"","text_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","column_gap":"large","row_gap":"inherit","item_style":"standard","item_color_scheme":"","item_heading_font":"heading","item_heading_size":"h6","item_icon_size":"extra-large","padding_top":50,"padding_bottom":50,"show_section_divider":false,"divider_width":"fixed"}},"video_hero_Em7U7f":{"type":"video-hero","blocks":{"subheading_7c6w68":{"type":"subheading","disabled":true,"settings":{"subheading":"Add a tagline"}},"heading_r8YzfV":{"type":"heading","disabled":true,"settings":{"heading":"Video hero","heading_size":"hd1","heading_highlight_style":"none"}}},"block_order":["subheading_7c6w68","heading_r8YzfV"],"disabled":true,"settings":{"container":"full","video_url":"https:\/\/www.youtube.com\/watch?v=nu_FXVxkLlM","description":"","video_height":"adapt","overlay_opacity":0,"enable_parallax":false,"parallax_direction":"vertical","color_scheme":"","content_position":"middle-center","content_alignment":"center","video_mobile_height":"adapt","padding_top":50,"padding_bottom":50,"show_section_divider":false,"divider_width":"fixed"}},"scrolling_promotion_Jxk6Fe":{"type":"scrolling-promotion","blocks":{"text_6W9fie":{"type":"text","settings":{"text":"Zahle für den Duft, nicht für die Marke","text_link":"","text_size":"h2","font_weight":"font-heading","font_style":"normal","letter_spacing":0,"text_opacity":100,"text_style":"normal","use_custom_color":false,"custom_color":"#000000"}},"html_e4iAHz":{"type":"html","settings":{"html":"<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> <\/div><\/div>"}},"text_bAGYYA":{"type":"text","settings":{"text":"Zahle für den Duft, nicht für die Marke","text_link":"","text_size":"h2","font_weight":"font-heading","font_style":"normal","letter_spacing":0,"text_opacity":100,"text_style":"normal","use_custom_color":false,"custom_color":"#000000"}},"html_gr8raK":{"type":"html","settings":{"html":"<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> <\/div><\/div>"}}},"block_order":["text_6W9fie","html_e4iAHz","text_bAGYYA","html_gr8raK"],"settings":{"color_scheme":"scheme-3","vertical_alignment":"center","direction":"left","pause_on_hover":true,"speed":0.5,"h_spacing":50,"v_spacing":0,"padding_top":40,"padding_bottom":40,"show_divider":false,"divider_layout":"vertical"}},"ss_feature_16_mcfFNE":{"type":"ss-feature-16","blocks":{"feature_gGhR7m":{"type":"feature","settings":{"icon":"shield","heading":"<h3>100% GELD-ZURÜCK-GARANTIE<\/h3>","text":"<p>Kein Risiko: Du kannst die Düfte problemlos testen, falls Sie dir nicht gefallen - einfach zurückschicken.<\/p>"}},"feature_PfH3w6":{"type":"feature","settings":{"icon":"globe","custom_icon":"shopify:\/\/shop_images\/deutschland_1.png","heading":"<h3>MADE IN GERMANY<\/h3>","text":"<p>Höchste Qualitätsstandards und präzise Handwerkskunst für ein luxuriöses Dufterlebnis<\/p>"}},"feature_kGMirh":{"type":"feature","settings":{"icon":"truck","heading":"<h3>SCHNELL UND SICHER<\/h3>","text":"<p>Deutschlandweit kostenloser DHL Versand ab 30€<\/p>"}},"feature_JxRDrP":{"type":"feature","settings":{"icon":"chat-dots","heading":"<h3>24\/7 SUPPORT<\/h3>","text":"<p>Unser Team ist rund um die Uhr für dich da<\/p>"}},"feature_GJmTNk":{"type":"feature","disabled":true,"settings":{"icon":"return","heading":"<h3>STRESSFREIE RETOURE<\/h3>","text":"<p>Within 14 days of delivery, for a exchange or full refund<\/p>"}}},"block_order":["feature_gGhR7m","feature_PfH3w6","feature_kGMirh","feature_JxRDrP","feature_GJmTNk"],"settings":{"feature_row":4,"feature_row_mobile":1,"feature_padding_horizontal":10,"feature_padding_horizontal_mobile":16,"feature_border_thickness":1,"content_horizontal_align":"center","content_horizontal_align_mobile":"center","icon_size":24,"icon_size_mobile":24,"heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":18,"heading_size_mobile":18,"heading_height":130,"heading_mt_mobile":14,"text_custom":false,"text_font":"josefin_sans_n4","text_size":13,"text_size_mobile":13,"text_height":150,"text_mt":16,"text_mt_mobile":16,"dots_size":5,"feature_border_color":"#e7e7e7","icon_color":"#000000","heading_color":"#000000","text_color":"#000000","dots_color":"#000000","background_color":"#ffffff","background_gradient":"","border_color":"#e7e7e7","margin_top":0,"margin_bottom":0,"margin_horizontal":0,"margin_horizontal_mobile":0,"padding_top":36,"padding_bottom":36,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":120,"border_thickness":1,"section_radius":0,"lazy":true}}},"order":["slideshow_qQD39e","ss_circle_menu_XY7TmW","custom_liquid_QFdccV","product_tabs_iJHLzK","image_with_text_Cqamy9","rich_text_jJc8m4","collection_list_Pr36qH","ss_testimonial_8_8JHay4","ss_video_socials_xMnbVn","feature_list_cW3d9c","image_with_text_MgddA8","collapsible_tabs_zhmUJe","video_hero_Em7U7f","scrolling_promotion_Jxk6Fe","ss_feature_16_mcfFNE"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_qQD39e": {
+      "type": "slideshow",
+      "blocks": {
+        "video_MMt8Mb": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-1",
+            "video_url": "https://www.youtube.com/watch?v=nu_FXVxkLlM",
+            "cover_image": "shopify://shop_images/titelbild_x75_fab60c1d-b4b2-4588-ba83-171b6f4b57fe.jpg",
+            "video_description": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Zahle für den Duft, nicht für die Marke",
+            "heading_size": "h3",
+            "subheading": "",
+            "description": "<p>Duftwillinge deiner Lieblingsdüfte. Langanhaltend. Intensiv. Höchste Qualität</p>",
+            "description_size": "text-base",
+            "button_label": "Herren",
+            "button_link": "shopify://collections/herren",
+            "button_style": "btn--primary",
+            "button_label_2": "Damen",
+            "button_link_2": "shopify://collections/damen",
+            "button_style_2": "btn--primary"
+          }
+        },
+        "video_NQmNHb": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "video_url": "",
+            "cover_image": "shopify://shop_images/titelbild_x75_fab60c1d-b4b2-4588-ba83-171b6f4b57fe.jpg",
+            "video_description": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Zahle für den Duft, nicht für die Marke",
+            "heading_size": "h3",
+            "subheading": "",
+            "description": "<p>Duftwillinge deiner Lieblingsdüfte. Langanhaltend. Intensiv. Höchste Qualität</p>",
+            "description_size": "text-base",
+            "button_label": "Herren",
+            "button_link": "shopify://collections/herren",
+            "button_style": "btn--primary",
+            "button_label_2": "Damen",
+            "button_link_2": "shopify://collections/damen",
+            "button_style_2": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "video_MMt8Mb",
+        "video_NQmNHb"
+      ],
+      "settings": {
+        "container": "full",
+        "layout": "standard",
+        "slide_height": "large",
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_delay": 10,
+        "controls_position": "bottom",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "ss_circle_menu_XY7TmW": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_3Vr9Q4": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "60% Rabatt auf Bundles",
+            "bubble_link": ""
+          }
+        },
+        "image_3HqeRr": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "50% Rabatt auf Düfte",
+            "bubble_link": ""
+          }
+        },
+        "image_qd6zt6": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Zum Quiz",
+            "bubble_link": ""
+          }
+        },
+        "image_jbxnP4": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Bestseller",
+            "bubble_link": ""
+          }
+        },
+        "image_k43Lza": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Neuheiten",
+            "bubble_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3Vr9Q4",
+        "image_3HqeRr",
+        "image_qd6zt6",
+        "image_jbxnP4",
+        "image_k43Lza"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#000000",
+        "icon_border_gradient": "",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 24,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": true
+      }
+    },
+    "custom_liquid_QFdccV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "product_tabs_iJHLzK": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_Yz8Mnz": {
+          "type": "tab",
+          "settings": {
+            "title": "Bestseller",
+            "collection": "bestseller"
+          }
+        },
+        "tab_9cGBUe": {
+          "type": "tab",
+          "settings": {
+            "title": "Herrendüfte",
+            "collection": "herren"
+          }
+        },
+        "tab_AfgNn8": {
+          "type": "tab",
+          "settings": {
+            "title": "Damendüfte",
+            "collection": "damen"
+          }
+        },
+        "tab_TDL4dR": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Frische Düfte",
+            "collection": ""
+          }
+        },
+        "tab_HFdhWh": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Holzige Düfte",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_Yz8Mnz",
+        "tab_9cGBUe",
+        "tab_AfgNn8",
+        "tab_TDL4dR",
+        "tab_HFdhWh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header_layout": "horizontal",
+        "heading": "",
+        "heading_size": "h3",
+        "heading_highlight_style": "none",
+        "limit": 8,
+        "columns": 5,
+        "column_gap": "extra-small",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "show_all_button_on_top": true,
+        "button_label": "Alle Düfte",
+        "button_link": "shopify://collections/alle-duefte",
+        "button_style": "btn--underline",
+        "tabs_nav_style": "design-1",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_Cqamy9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7tETnC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Finde deinen perfekten Duft",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_VnY743": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du bist unsicher, welcher Duft perfekt zu dir passt? Beantworte einfach 3 Fragen und finde deinen neuen Lieblingsduft!</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_agnWpy": {
+          "type": "button",
+          "settings": {
+            "button_label": "QUIZ STARTEN",
+            "button_link": "https://1366a3.myshopify.com/tools/perfect-product-finder/duft-finder",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7tETnC",
+        "text_VnY743",
+        "button_agnWpy"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Quiz_Bild1.jpg",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_jJc8m4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Xny6NQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Schaue in die Duftnoten",
+            "heading_size": "h4",
+            "heading_highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xny6NQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_Pr36qH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_inyzwk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tf-dufte",
+            "image": "shopify://shop_images/6_8d05e83b-eee2-43b6-b5d4-58a0aa40d52e.jpg",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_H3VHEr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lv-dufte",
+            "image": "shopify://shop_images/7_33325eef-1933-4c1c-9a8e-52dc133cfd99.jpg",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_RAgx3R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xj-dufte",
+            "image": "shopify://shop_images/1_d2477d7c-9683-49d0-b8ac-d970bc5ca723.jpg",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_VHfaMD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "byr-dufte",
+            "image": "shopify://shop_images/3_4285a502-528c-42c6-9a51-0521ff2c1872.jpg",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_ytHAXL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kil-dufte",
+            "image": "shopify://shop_images/4_b5d4b458-136e-4b75-98aa-fa155faeb216.jpg",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_mzqaBn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pdm-dufte",
+            "image": "shopify://shop_images/2_719f2924-0af6-40c1-99e9-1a015b0d9534.jpg",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_inyzwk",
+        "featured_collection_H3VHEr",
+        "featured_collection_RAgx3R",
+        "featured_collection_VHfaMD",
+        "featured_collection_ytHAXL",
+        "featured_collection_mzqaBn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "layout": "split",
+        "subheading": "Wonach suchst du?",
+        "heading": "Wir haben alle.",
+        "heading_size": "h3",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_inherited": false,
+        "show_product_count": false,
+        "show_icon": false,
+        "card_style": "",
+        "card_image_ratio": "adapt",
+        "content_alignment": "left",
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "ss_testimonial_8_8JHay4": {
+      "type": "ss-testimonial-8",
+      "blocks": {
+        "slide_XbkMRD": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Ihr müsst es einfach testen",
+            "text": "Das ist kein daher gelaufener Duftzwilling Anbieter Leute, dass sind wirklich wirklich gute Düfte, ich weiß nicht was deren Geheimnis ist, aber die Düfte sind extrem gut, hab oft Dupes gekauft, aber nie so eine Qualität gesehen, ehrlich.",
+            "author_date": "Jessica T."
+          }
+        },
+        "slide_FBTQrY": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Wenn einer Duftzwillinge wirklich gut kann",
+            "text": "Wenn einer Duftzwillinge wirklich gut kann, dann ist Cianni Fragrances, hatte über die Zeit mich schon oft mit Dupes probiert, aber war zuvor nie wirklich zufrieden. Bis ich auf Cianni kam, tolle Düfte mit einer super Haltbarkeit, Hut ab :)",
+            "author_date": "Christopher J."
+          }
+        },
+        "slide_wVfWP7": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Freundlicher und schneller Service",
+            "text": "Geniale und lang Anhaltende Düfte. Service von Cianni schnell, freundlich und sehr hilfreich. Das war nicht meine letzte Bestellung. Danke Leute.",
+            "author_date": "Tim Bloch"
+          }
+        },
+        "slide_hE7ACt": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Ich bin positiv überrascht!",
+            "text": "Ich bin positiv überrascht von der Qualität der Duftzwillinge! Die Düfte sind den Originalen sehr ähnlich und halten erstaunlich lange. Für den Preis eine wirklich tolle Alternative zu teuren Markenparfums. Werde definitiv wieder bestellen!!!",
+            "author_date": "Svenja V."
+          }
+        },
+        "slide_Rzntmx": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Habe eine Flasche geschenkt bekommen",
+            "text": "Habe eine Flasche geschenkt bekommen und love it. Habe mir direkt noch 2/3 weitere selber bestellt. Sehr nice Dupes.",
+            "author_date": "Silvana S."
+          }
+        },
+        "slide_ECe7xh": {
+          "type": "slide",
+          "settings": {
+            "stars_count": 5,
+            "heading": "Also, ich war erst unsicher",
+            "text": "Also, ich war erst unsicher, aber der 404 hat mich überzeugt. Hält echt lang sogar nach nem stressigen Tag. Nur der Sprüher haut manchmal bisschen viel raus. Sonst top, freu mich auf die neuen Düfte!",
+            "author_date": "Cansu T."
+          }
+        }
+      },
+      "block_order": [
+        "slide_XbkMRD",
+        "slide_FBTQrY",
+        "slide_wVfWP7",
+        "slide_hE7ACt",
+        "slide_Rzntmx",
+        "slide_ECe7xh"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "center",
+        "rating_text": "Hervorragend",
+        "rating_text_custom": false,
+        "rating_text_font": "josefin_sans_n4",
+        "rating_text_size": 24,
+        "rating_text_size_mobile": 20,
+        "rating_text_height": 130,
+        "rating_text_mt": 16,
+        "rating": 4.9,
+        "rating_hide": false,
+        "rating_text_hide": false,
+        "rating_align": "center",
+        "stars_count": 5,
+        "stars_size": 28,
+        "stars_size_mobile": 24,
+        "stars_align": "center",
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_align": "center",
+        "text_mt": 16,
+        "slider_width": 80,
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "card_padding_vertical": 32,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 24,
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "card_heading_custom": false,
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 24,
+        "card_heading_size_mobile": 20,
+        "card_heading_height": 130,
+        "card_heading_align": "center",
+        "card_heading_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 150,
+        "card_text_align": "center",
+        "card_text_mt": 16,
+        "card_text_more": "Mehr anzeigen",
+        "card_text_less": "Weniger Anzeigen",
+        "card_count_words": 20,
+        "card_author_date_text_custom": false,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 16,
+        "card_author_date_text_size_mobile": 16,
+        "card_author_date_text_height": 50,
+        "card_author_date_text_align": "center",
+        "card_author_date_text_mt": 16,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 28,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_align": "center",
+        "button_mt": 16,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 16,
+        "button_radius": 8,
+        "button_border_thickness": 0,
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "card_heading_color": "#000000",
+        "card_text_color": "#000000",
+        "card_author_date_text_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "dots_color": "#000000",
+        "heading_color": "#000000",
+        "rating_text_color": "#000000",
+        "stars_bg_color": "#00b67a",
+        "stars_color": "#ffffff",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_video_socials_xMnbVn": {
+      "type": "ss-video-socials",
+      "blocks": {
+        "video_AARaWE": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Video 8 (ohne UT) 2.MP4",
+            "poster": "shopify://shop_images/3_684d8dfc-1986-4a0d-ba5d-05a1f468294a.jpg",
+            "text": "",
+            "icon_type": "none"
+          }
+        },
+        "video_TE9qH6": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Video 11 - Bonus (ohne UT) 2.MP4",
+            "poster": "shopify://shop_images/1_8a0585fc-81e7-40e0-84dc-cf30509a5bf6.jpg",
+            "text": "",
+            "icon_type": "none"
+          }
+        },
+        "video_wU6tq6": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Video 6 (ohne UT) 2.MP4",
+            "poster": "shopify://shop_images/5_c0c2e63a-cb4e-404c-b677-f2bf6e863cf5.jpg",
+            "text": "",
+            "icon_type": "none"
+          }
+        },
+        "video_wwJttf": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Video 9 (ohne UT) 2.MP4",
+            "poster": "shopify://shop_images/4_ee07cea8-922e-4be3-97f9-5c2f9ce322f4.jpg",
+            "text": "",
+            "icon_type": "none"
+          }
+        },
+        "video_xXc9Ym": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Video 10 (ohne UT) 2.MP4",
+            "poster": "shopify://shop_images/2_73e93759-96b2-40c7-9a5b-2ca9854b5ead.jpg",
+            "text": "",
+            "icon_type": "none"
+          }
+        }
+      },
+      "block_order": [
+        "video_AARaWE",
+        "video_TE9qH6",
+        "video_wU6tq6",
+        "video_wwJttf",
+        "video_xXc9Ym"
+      ],
+      "settings": {
+        "heading": "Die besten Dupes",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 32,
+        "heading_height": 200,
+        "heading_align": "center",
+        "items_mt": 36,
+        "items_mt_mobile": 10,
+        "items_type": "columns",
+        "items_type_mobile": "slider",
+        "columns_row": 5,
+        "columns_gap": 24,
+        "columns_gap_mobile": 24,
+        "slider_nav": "buttons",
+        "slider_nav_mobile": "pagination",
+        "slider_nav_size": 40,
+        "slider_nav_size_mobile": 30,
+        "slider_pagination_size": 15,
+        "slider_pagination_size_mobile": 10,
+        "item_radius": 12,
+        "item_border_thickness": 0,
+        "item_padding_horizontal": 0,
+        "item_padding_vertical": 0,
+        "video_size": "large",
+        "video_size_mobile": "large",
+        "icon_size": 60,
+        "icon_padding": 15,
+        "content_padding_horizontal": 12,
+        "content_padding_vertical": 0,
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 16,
+        "text_height": 130,
+        "text_align": "center",
+        "link_text": "",
+        "link_url": "",
+        "link_custom": false,
+        "link_font": "assistant_n4",
+        "link_size": 18,
+        "link_height": 130,
+        "link_align": "center",
+        "link_mt": 36,
+        "link_radius": 12,
+        "link_border_thickness": 2,
+        "link_padding_horizontal": 50,
+        "link_padding_vertical": 16,
+        "hide_arrow": false,
+        "heading_color": "#120a0a",
+        "item_bg_color": "#ffffff",
+        "item_border_color": "#120a0a",
+        "icon_bg_color": "#a5a4ab",
+        "icon_color": "#ffffff",
+        "text_color": "#120a0a",
+        "slider_nav_btn_bg": "#ffffff",
+        "slider_nav_btn_hover_bg": "#a5a4ab",
+        "slider_nav_border": "#a5a4ab",
+        "slider_nav_border_hover": "#a5a4ab",
+        "slider_nav_icon": "#a5a4ab",
+        "slider_nav_hover_icon": "#ffffff",
+        "slider_pagination_color": "#a5a4ab",
+        "slider_pagination_hover_color": "#a5a4ab",
+        "link_text_color": "#120a0a",
+        "link_text_hover_color": "#ffffff",
+        "link_bg_color": "#ffffff",
+        "link_bg_hover_color": "#120a0a",
+        "link_border_color": "#120a0a",
+        "link_border_hover_color": "#120a0a",
+        "background_color": "#f7f7f7",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 32,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "feature_list_cW3d9c": {
+      "type": "feature-list",
+      "blocks": {
+        "feature_item_VbCwL3": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Lange Haltbarkeit - über 10h"
+          }
+        },
+        "feature_item_NzxQGa": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Intensiver Duft- 25% Ölanteil"
+          }
+        },
+        "feature_item_yyNV9A": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Stressfreies Rückgaberecht"
+          }
+        },
+        "feature_item_gBgLft": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Made in Germany"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_VbCwL3",
+        "feature_item_NzxQGa",
+        "feature_item_yyNV9A",
+        "feature_item_gBgLft"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "item_alignment": "center",
+        "icon_size": "extra-medium",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_MgddA8": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XLgqVJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_J7mctK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Deutschland's Nr. 1 Duftzwillinge",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_A3Dahr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Luxus muss nicht teuer sein! Cianni Fragrances bringt dir die beliebtesten Designer-Düfte als hochwertige Duftzwillinge – mit intensiver 25% Duftölkonzentration, langanhaltend und intensiv. Erlebe exklusiven Düfte, ohne den hohen Preis zu zahlen.</p><p><strong>Warum mehr zahlen, wenn du den gleichen Luxus für weniger haben kannst?</strong></p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XLgqVJ",
+        "heading_J7mctK",
+        "text_A3Dahr"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "scheme-3",
+        "image": "shopify://shop_images/titelbild_x75_fab60c1d-b4b2-4588-ba83-171b6f4b57fe.jpg",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_zhmUJe": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_Jxdkag": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Was genau sind Duftzwillinge?",
+            "content": "<p>Wir kreieren Duftkompositionen, die von bekannten Markenparfums inspiriert sind, und setzen dabei auf höchste Qualitätsstandards. So bieten wir unseren Kunden eine erstklassige, aber erschwingliche Alternative zu ihren Lieblingsdüften. Dabei bestehen keinerlei Verbindungen zu den genannten Marken.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_jANFLn": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie bietet ihr Düfte zu so günstigen Preisen bei gleicher Qualität?",
+            "content": "<p>Indem wir auf überflüssige Verpackungen, teure Werbung und hohe Prestige-Aufschläge verzichten, können wir unseren Fokus vollständig auf die Qualität des Duftes legen. So ermöglichen wir ein luxuriöses Dufterlebnis zu einem Bruchteil des Preises.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_x7bCnA": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie lange halten eure Düfte?",
+            "content": "<p>Dank unserer hohen Konzentration von 25% Duftöl halten unsere Düfte auf der Haut oft bis zu 16 Stunden – in einigen Fällen sogar länger als Designerparfums. Die Haltbarkeit kann je nach Duft und Hauttyp variieren, aber viele unserer Kunden berichten von einer besonders langen Duftwirkung.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_8NhhBX": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Sind die Inhaltsstoffe in euren Düften sicher für meine Haut?",
+            "content": "<p>Absolut! Wir verwenden nur die besten und sichersten Inhaltsstoffe, die alle gründlich getestet wurden. Außerdem sind alle unsere Düfte vegan und frei von Tierversuchen.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_KtgFBR": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Habt ihr Düfte sowohl für Frauen als auch für Männer?",
+            "content": "<p>Ja, bei uns findest Du eine große Auswahl für jeden Geschmack und jedes Geschlecht. Falls ein bestimmter Duft mal nicht dabei sein sollte,<br/>können wir dir versichern, dass wir täglich daran arbeiten unsere<br/>Produktpalette zu erweitern.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_item_4iGKXk": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Wie lange dauert der Versand?",
+            "content": "<p>Wir verschicken alle Pakete sofort raus - der anschließende Versandweg dauert in der Regel 1-2 Werktage.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_Jxdkag",
+        "collapsible_item_jANFLn",
+        "collapsible_item_x7bCnA",
+        "collapsible_item_8NhhBX",
+        "collapsible_item_KtgFBR",
+        "collapsible_item_4iGKXk"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Häufige Fragen",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h6",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "video_hero_Em7U7f": {
+      "type": "video-hero",
+      "blocks": {
+        "subheading_7c6w68": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Add a tagline"
+          }
+        },
+        "heading_r8YzfV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Video hero",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7c6w68",
+        "heading_r8YzfV"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "full",
+        "video_url": "https://www.youtube.com/watch?v=nu_FXVxkLlM",
+        "description": "",
+        "video_height": "adapt",
+        "overlay_opacity": 0,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-center",
+        "content_alignment": "center",
+        "video_mobile_height": "adapt",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "scrolling_promotion_Jxk6Fe": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_6W9fie": {
+          "type": "text",
+          "settings": {
+            "text": "Zahle für den Duft, nicht für die Marke",
+            "text_link": "",
+            "text_size": "h2",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 100,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "html_e4iAHz": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+          }
+        },
+        "text_bAGYYA": {
+          "type": "text",
+          "settings": {
+            "text": "Zahle für den Duft, nicht für die Marke",
+            "text_link": "",
+            "text_size": "h2",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 100,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "html_gr8raK": {
+          "type": "html",
+          "settings": {
+            "html": "<div class=\"flex items-center\"><div style=\"display: block;width: 6.4rem;height: 1px; background: #000\"> </div></div>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6W9fie",
+        "html_e4iAHz",
+        "text_bAGYYA",
+        "html_gr8raK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "vertical_alignment": "center",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.5,
+        "h_spacing": 50,
+        "v_spacing": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_divider": false,
+        "divider_layout": "vertical"
+      }
+    },
+    "ss_feature_16_mcfFNE": {
+      "type": "ss-feature-16",
+      "blocks": {
+        "feature_gGhR7m": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield",
+            "heading": "<h3>100% GELD-ZURÜCK-GARANTIE</h3>",
+            "text": "<p>Kein Risiko: Du kannst die Düfte problemlos testen, falls Sie dir nicht gefallen - einfach zurückschicken.</p>"
+          }
+        },
+        "feature_PfH3w6": {
+          "type": "feature",
+          "settings": {
+            "icon": "globe",
+            "custom_icon": "shopify://shop_images/deutschland_1.png",
+            "heading": "<h3>MADE IN GERMANY</h3>",
+            "text": "<p>Höchste Qualitätsstandards und präzise Handwerkskunst für ein luxuriöses Dufterlebnis</p>"
+          }
+        },
+        "feature_kGMirh": {
+          "type": "feature",
+          "settings": {
+            "icon": "truck",
+            "heading": "<h3>SCHNELL UND SICHER</h3>",
+            "text": "<p>Deutschlandweit kostenloser DHL Versand ab 30€</p>"
+          }
+        },
+        "feature_JxRDrP": {
+          "type": "feature",
+          "settings": {
+            "icon": "chat-dots",
+            "heading": "<h3>24/7 SUPPORT</h3>",
+            "text": "<p>Unser Team ist rund um die Uhr für dich da</p>"
+          }
+        },
+        "feature_GJmTNk": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "return",
+            "heading": "<h3>STRESSFREIE RETOURE</h3>",
+            "text": "<p>Within 14 days of delivery, for a exchange or full refund</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_gGhR7m",
+        "feature_PfH3w6",
+        "feature_kGMirh",
+        "feature_JxRDrP",
+        "feature_GJmTNk"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 1,
+        "feature_padding_horizontal": 10,
+        "feature_padding_horizontal_mobile": 16,
+        "feature_border_thickness": 1,
+        "content_horizontal_align": "center",
+        "content_horizontal_align_mobile": "center",
+        "icon_size": 24,
+        "icon_size_mobile": 24,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_mt_mobile": 14,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 13,
+        "text_size_mobile": 13,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "dots_size": 5,
+        "feature_border_color": "#e7e7e7",
+        "icon_color": "#000000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "dots_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#e7e7e7",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 1,
+        "section_radius": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_qQD39e",
+    "ss_circle_menu_XY7TmW",
+    "custom_liquid_QFdccV",
+    "product_tabs_iJHLzK",
+    "image_with_text_Cqamy9",
+    "rich_text_jJc8m4",
+    "collection_list_Pr36qH",
+    "ss_testimonial_8_8JHay4",
+    "ss_video_socials_xMnbVn",
+    "feature_list_cW3d9c",
+    "image_with_text_MgddA8",
+    "collapsible_tabs_zhmUJe",
+    "video_hero_Em7U7f",
+    "scrolling_promotion_Jxk6Fe",
+    "ss_feature_16_mcfFNE"
+  ]
+}
