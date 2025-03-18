@@ -840,6 +840,7 @@
         "heading_J7mctK",
         "text_A3Dahr"
       ],
+      "disabled": true,
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "scheme-3",
@@ -853,6 +854,47 @@
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "video_with_text_qrTpmN": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_DakKMQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Deutschland's Nr. 1 Duftzwillinge",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_LfAfzX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Luxus muss nicht teuer sein! Cianni Fragrances bringt dir die beliebtesten Designer-Düfte als hochwertige Duftzwillinge – mit intensiver 25% Duftölkonzentration, langanhaltend und intensiv. Erlebe exklusiven Düfte, ohne den hohen Preis zu zahlen.</p><p><strong>Warum mehr zahlen, wenn du den gleichen Luxus für weniger haben kannst?</strong></p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DakKMQ",
+        "text_LfAfzX"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "video_url": "https://www.youtube.com/watch?v=nu_FXVxkLlM",
+        "cover_image": "shopify://shop_images/titelbild_1_dk.jpg",
+        "video_ratio": "4/3",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "video_placement": "first",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "text_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -1183,6 +1225,7 @@
     "ss_video_socials_xMnbVn",
     "feature_list_cW3d9c",
     "image_with_text_MgddA8",
+    "video_with_text_qrTpmN",
     "collapsible_tabs_zhmUJe",
     "video_hero_Em7U7f",
     "scrolling_promotion_Jxk6Fe",
