@@ -9,7 +9,7 @@
     <h2 class="reviews-title">Bewertungen</h2>
 
     <ul class="reviews-list">
-      {% for review_ref in reviews.value %}
+      {% for review_ref in reviews.value limit: 5 %}
         <li class="review">
           <h3 class="reviews-author">{{ review_ref.author }}</h3>
           <div class="product__stars">
