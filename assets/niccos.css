@@ -1,0 +1,80 @@
+#product-reviews {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #f7f7f7;
+}
+.niccos-review-style {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #dcdcdc;
+    gap: 10px;
+}
+.niccos-review-style .reviews-author {
+    font-size: 20px;
+}
+.niccos-review-style p {
+    margin: 0;
+}
+.niccos-stars-style {
+    flex-direction: row;
+    gap: 5px;
+}
+.niccos-review-title {
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+.niccos-verify-container {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.niccos-verify-container svg {
+    height: 1rem;
+    fill: #000;
+}
+.niccos-verify {
+    color: #313131;
+    font-size: 14px;
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+/*For PDP marquee*/
+.niccos-marquee__container {
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    border-bottom-left-radius: var(--blocks-radius);
+    border-bottom-right-radius: var(--blocks-radius);
+    z-index: 2;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.niccos-marquee__container .niccos-marquee__swiper .swiper-wrapper {
+    gap: 3rem;
+    align-items: center;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.niccos-marquee-item.swiper-slide {
+    width: max-content;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.niccos-marquee-item.swiper-slide .niccos-marquee__specific {
+    font-size: 13px;
+
+}
+/*End PDP marquee*/

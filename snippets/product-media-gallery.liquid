@@ -48,6 +48,25 @@
     endif
   endif
 -%}
+
+{%- assign marquee_items = false -%}
+{%- assign background_color = "#000" -%}
+{%- assign main_color = "#fff" -%}
+{%- assign specific_color = "#dc2626" -%}
+{%- assign auto_speed = 3000 -%}
+{% for block in section.blocks %}
+  {% if block.type == "niccos_marquee" %}
+    {%- assign marquee_items = block.settings.marquee_content | split: "," -%}
+    {%- assign background_color = block.settings.bg_color -%}
+    {%- assign main_color = block.settings.main_color -%}
+    {%- assign specific_color = block.settings.specific_color -%}
+    {%- assign auto_speed = block.settings.auto_speed -%}
+    {%- break -%}
+  {% endif %}
+{% endfor %}
+
+
+
 <media-gallery
   id="MediaGallery-{{ section.id }}"
   role="region"
@@ -116,6 +135,32 @@
         </div>
       </div>
     {%- endif -%}
+    {% if marquee_items != blank %}
+      {%- style -%}
+        .niccos-marquee__container {
+          background-color: {{ background_color }};
+          color: {{ main_color }};
+        }
+        .niccos-marquee__specific {
+          color: {{ specific_color }};
+        }
+      {%- endstyle -%}
+      <div class="niccos-marquee__container">
+        <div class="niccos-marquee__swiper swiper">
+          <div class="swiper-wrapper">
+            {% for item in marquee_items %}
+              {%- assign marquee_item = item -%}
+              {% if item contains ":" %}
+                {%- assign marquee_item = item | replace: ":", "<span class='niccos-marquee__specific'>" -%}
+              {% endif %}
+              <div class="niccos-marquee-item swiper-slide">
+                {{ marquee_item }}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
   </div>
   {%- if media_count > 1 and media_layout contains 'carousel' or mobile_thumbnails == 'show' -%}
     {%- liquid
@@ -183,3 +228,18 @@
     </div>
   {%- endif -%}
 </media-gallery>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+  var marquee_swiper = new Swiper(".niccos-marquee__swiper", {
+    speed: {{ auto_speed }},
+    slidesPerView: "auto",
+    loop: true,
+    autoplay: {
+      delay: 0
+    },
+    freeMode: true
+
+  })
+</script>

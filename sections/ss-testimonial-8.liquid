@@ -1019,167 +1019,169 @@ For inquiries or permissions, contact daniel@section.store
           {% endif %}
         </div>
       {% endif %}
-      <div class="testimonials-slider-wrapper-{{ section.id }}">
-        <div class="testimonials-slider-{{ section.id }} swiper preview">
-          <div class="swiper-wrapper">
-            {% for block in section.blocks %}
-              <div class="testimonials-slide-{{ section.id }} swiper-slide">
-                <div class="testimonials-slide-top-{{ section.id }}">
-                  {% if block.settings.stars_count != 0 %}
-                    <div class="testimonials-stars-{{ section.id }}">
-                        {% if stars_icon != blank %}
-                          {% for item in (1..block.settings.stars_count) %}
-                            <img src="{{ stars_icon | image_url }}" alt="{{ stars_icon.alt }}" {% if lazy %}loading="lazy"{% endif %}>
-                          {% endfor %}
-                        {% else %}
-                          {% if block.settings.stars_count > 0 %}
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              {% if block.settings.stars_count == 0.5 %}
+      {% if section.blocks.size > 0 %}
+        <div class="testimonials-slider-wrapper-{{ section.id }}">
+          <div class="testimonials-slider-{{ section.id }} swiper preview">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <div class="testimonials-slide-{{ section.id }} swiper-slide">
+                  <div class="testimonials-slide-top-{{ section.id }}">
+                    {% if block.settings.stars_count != 0 %}
+                      <div class="testimonials-stars-{{ section.id }}">
+                          {% if stars_icon != blank %}
+                            {% for item in (1..block.settings.stars_count) %}
+                              <img src="{{ stars_icon | image_url }}" alt="{{ stars_icon.alt }}" {% if lazy %}loading="lazy"{% endif %}>
+                            {% endfor %}
+                          {% else %}
+                            {% if block.settings.stars_count > 0 %}
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {% if block.settings.stars_count == 0.5 %}
+                                  <defs>
+                                    <linearGradient id="grad{{ section.id }}1">
+                                      <stop offset="0%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="#DDDDDD" />
+                                      <stop offset="100%" stop-color="#DDDDDD" />
+                                    </linearGradient>
+                                  </defs>
+                                {% endif %}
+                                <rect width="32" height="32" fill="{% if block.settings.stars_count == 0.5 %}url(#grad{{ section.id }}1){% else %}{{ stars_bg_color }}{% endif %}"/>
+                                <g clip-path="url(#clip0_25_4)">
+                                <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
+                                </g>
                                 <defs>
-                                  <linearGradient id="grad{{ section.id }}1">
-                                    <stop offset="0%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="#DDDDDD" />
-                                    <stop offset="100%" stop-color="#DDDDDD" />
-                                  </linearGradient>
+                                <clipPath id="clip0_25_4">
+                                <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
+                                </clipPath>
                                 </defs>
-                              {% endif %}
-                              <rect width="32" height="32" fill="{% if block.settings.stars_count == 0.5 %}url(#grad{{ section.id }}1){% else %}{{ stars_bg_color }}{% endif %}"/>
-                              <g clip-path="url(#clip0_25_4)">
-                              <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
-                              </g>
-                              <defs>
-                              <clipPath id="clip0_25_4">
-                              <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
-                              </clipPath>
-                              </defs>
-                            </svg>
-                          {% endif %}
-                          {% if block.settings.stars_count > 1 %}
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              {% if block.settings.stars_count == 1.5 %}
+                              </svg>
+                            {% endif %}
+                            {% if block.settings.stars_count > 1 %}
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {% if block.settings.stars_count == 1.5 %}
+                                  <defs>
+                                    <linearGradient id="grad{{ section.id }}2">
+                                      <stop offset="0%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="#DDDDDD" />
+                                      <stop offset="100%" stop-color="#DDDDDD" />
+                                    </linearGradient>
+                                  </defs>
+                                {% endif %}
+                                <rect width="32" height="32" fill="{% if block.settings.stars_count == 1.5 %}url(#grad{{ section.id }}2){% else %}{{ stars_bg_color }}{% endif %}"/>
+                                <g clip-path="url(#clip0_25_4)">
+                                <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
+                                </g>
                                 <defs>
-                                  <linearGradient id="grad{{ section.id }}2">
-                                    <stop offset="0%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="#DDDDDD" />
-                                    <stop offset="100%" stop-color="#DDDDDD" />
-                                  </linearGradient>
+                                <clipPath id="clip0_25_4">
+                                <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
+                                </clipPath>
                                 </defs>
-                              {% endif %}
-                              <rect width="32" height="32" fill="{% if block.settings.stars_count == 1.5 %}url(#grad{{ section.id }}2){% else %}{{ stars_bg_color }}{% endif %}"/>
-                              <g clip-path="url(#clip0_25_4)">
-                              <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
-                              </g>
-                              <defs>
-                              <clipPath id="clip0_25_4">
-                              <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
-                              </clipPath>
-                              </defs>
-                            </svg>
-                          {% endif %}
-                          {% if block.settings.stars_count > 2 %}
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              {% if block.settings.stars_count == 2.5 %}
+                              </svg>
+                            {% endif %}
+                            {% if block.settings.stars_count > 2 %}
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {% if block.settings.stars_count == 2.5 %}
+                                  <defs>
+                                    <linearGradient id="grad{{ section.id }}3">
+                                      <stop offset="0%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="#DDDDDD" />
+                                      <stop offset="100%" stop-color="#DDDDDD" />
+                                    </linearGradient>
+                                  </defs>
+                                {% endif %}
+                                <rect width="32" height="32" fill="{% if block.settings.stars_count == 2.5 %}url(#grad{{ section.id }}3){% else %}{{ stars_bg_color }}{% endif %}"/>
+                                <g clip-path="url(#clip0_25_4)">
+                                <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
+                                </g>
                                 <defs>
-                                  <linearGradient id="grad{{ section.id }}3">
-                                    <stop offset="0%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="#DDDDDD" />
-                                    <stop offset="100%" stop-color="#DDDDDD" />
-                                  </linearGradient>
+                                <clipPath id="clip0_25_4">
+                                <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
+                                </clipPath>
                                 </defs>
-                              {% endif %}
-                              <rect width="32" height="32" fill="{% if block.settings.stars_count == 2.5 %}url(#grad{{ section.id }}3){% else %}{{ stars_bg_color }}{% endif %}"/>
-                              <g clip-path="url(#clip0_25_4)">
-                              <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
-                              </g>
-                              <defs>
-                              <clipPath id="clip0_25_4">
-                              <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
-                              </clipPath>
-                              </defs>
-                            </svg>
-                          {% endif %}
-                          {% if block.settings.stars_count > 3 %}
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              {% if block.settings.stars_count == 3.5 %}
+                              </svg>
+                            {% endif %}
+                            {% if block.settings.stars_count > 3 %}
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {% if block.settings.stars_count == 3.5 %}
+                                  <defs>
+                                    <linearGradient id="grad{{ section.id }}4">
+                                      <stop offset="0%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="#DDDDDD" />
+                                      <stop offset="100%" stop-color="#DDDDDD" />
+                                    </linearGradient>
+                                  </defs>
+                                {% endif %}
+                                <rect width="32" height="32" fill="{% if block.settings.stars_count == 3.5 %}url(#grad{{ section.id }}4){% else %}{{ stars_bg_color }}{% endif %}"/>
+                                <g clip-path="url(#clip0_25_4)">
+                                <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
+                                </g>
                                 <defs>
-                                  <linearGradient id="grad{{ section.id }}4">
-                                    <stop offset="0%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="#DDDDDD" />
-                                    <stop offset="100%" stop-color="#DDDDDD" />
-                                  </linearGradient>
+                                <clipPath id="clip0_25_4">
+                                <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
+                                </clipPath>
                                 </defs>
-                              {% endif %}
-                              <rect width="32" height="32" fill="{% if block.settings.stars_count == 3.5 %}url(#grad{{ section.id }}4){% else %}{{ stars_bg_color }}{% endif %}"/>
-                              <g clip-path="url(#clip0_25_4)">
-                              <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
-                              </g>
-                              <defs>
-                              <clipPath id="clip0_25_4">
-                              <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
-                              </clipPath>
-                              </defs>
-                            </svg>
-                          {% endif %}
-                          {% if block.settings.stars_count > 4 %}
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              {% if block.settings.stars_count == 4.5 %}
+                              </svg>
+                            {% endif %}
+                            {% if block.settings.stars_count > 4 %}
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {% if block.settings.stars_count == 4.5 %}
+                                  <defs>
+                                    <linearGradient id="grad{{ section.id }}5">
+                                      <stop offset="0%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="{{ stars_bg_color }}" />
+                                      <stop offset="50%" stop-color="#DDDDDD" />
+                                      <stop offset="100%" stop-color="#DDDDDD" />
+                                    </linearGradient>
+                                  </defs>
+                                {% endif %}
+                                <rect width="32" height="32" fill="{% if block.settings.stars_count == 4.5 %}url(#grad{{ section.id }}5){% else %}{{ stars_bg_color }}{% endif %}"/>
+                                <g clip-path="url(#clip0_25_4)">
+                                <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
+                                </g>
                                 <defs>
-                                  <linearGradient id="grad{{ section.id }}5">
-                                    <stop offset="0%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="{{ stars_bg_color }}" />
-                                    <stop offset="50%" stop-color="#DDDDDD" />
-                                    <stop offset="100%" stop-color="#DDDDDD" />
-                                  </linearGradient>
+                                <clipPath id="clip0_25_4">
+                                <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
+                                </clipPath>
                                 </defs>
-                              {% endif %}
-                              <rect width="32" height="32" fill="{% if block.settings.stars_count == 4.5 %}url(#grad{{ section.id }}5){% else %}{{ stars_bg_color }}{% endif %}"/>
-                              <g clip-path="url(#clip0_25_4)">
-                              <path d="M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z" fill="{{ stars_color }}"/>
-                              </g>
-                              <defs>
-                              <clipPath id="clip0_25_4">
-                              <rect width="22" height="22" fill="{{ stars_color }}" transform="translate(5 5)"/>
-                              </clipPath>
-                              </defs>
-                            </svg>
+                              </svg>
+                            {% endif %}
+                                
                           {% endif %}
-                              
-                        {% endif %}
-                    </div>
-                  {% endif %}
-                  {% if block.settings.heading != blank %}
-                    <p class="testimonials-slide-heading-{{ section.id }}">{{ block.settings.heading }}</p>
-                  {% endif %}
-                  {% if block.settings.text != blank %}
-                    <p class="testimonials-slide-text-{{ section.id }}">
-                      <span>{{ block.settings.text }}</span>
-                      <span class="testimonials-slide-text-small-{{ section.id }} testimonials-slide-text-small">{{ block.settings.text | truncatewords: card_count_words }}</span>
-                      <span class="testimonials-slide-text-big-{{ section.id }} testimonials-slide-text-big">{{ block.settings.text }}</span>
-                      <button class="testimonials-slide-text-btn-{{ section.id }} testimonials-slide-text-btn">{{ card_text_more }}</button>
-                    </p>
-                  {% endif %}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.heading != blank %}
+                      <p class="testimonials-slide-heading-{{ section.id }}">{{ block.settings.heading }}</p>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                      <p class="testimonials-slide-text-{{ section.id }}">
+                        <span>{{ block.settings.text }}</span>
+                        <span class="testimonials-slide-text-small-{{ section.id }} testimonials-slide-text-small">{{ block.settings.text | truncatewords: card_count_words }}</span>
+                        <span class="testimonials-slide-text-big-{{ section.id }} testimonials-slide-text-big">{{ block.settings.text }}</span>
+                        <button class="testimonials-slide-text-btn-{{ section.id }} testimonials-slide-text-btn">{{ card_text_more }}</button>
+                      </p>
+                    {% endif %}
+                  </div>
+                  <div class="testimonials-slide-bottom-{{ section.id }}">
+                    {% if block.settings.author_date != blank %}
+                      <p class="testimonials-slide-author-date-{{ section.id }}">{{ block.settings.author_date }}</p>
+                    {% endif %}
+                  </div>
                 </div>
-                <div class="testimonials-slide-bottom-{{ section.id }}">
-                  {% if block.settings.author_date != blank %}
-                    <p class="testimonials-slide-author-date-{{ section.id }}">{{ block.settings.author_date }}</p>
-                  {% endif %}
-                </div>
-              </div>
-            {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="testimonials-btn-prev-{{ section.id }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Left"><path d="M14,17a1,1,0,0,1-.707-.293l-4-4a1,1,0,0,1,0-1.414l4-4a1,1,0,1,1,1.414,1.414L11.414,12l3.293,3.293A1,1,0,0,1,14,17Z" style="fill:#1c1b1e"/></g></svg>
+            </div>
+            <div class="testimonials-btn-next-{{ section.id }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Left"><path d="M14,17a1,1,0,0,1-.707-.293l-4-4a1,1,0,0,1,0-1.414l4-4a1,1,0,1,1,1.414,1.414L11.414,12l3.293,3.293A1,1,0,0,1,14,17Z" style="fill:#1c1b1e"/></g></svg>
+            </div>
+            <div class="testimonials-pagination-{{ section.id }} swiper-pagination"></div>
           </div>
-          <div class="testimonials-btn-prev-{{ section.id }}">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Left"><path d="M14,17a1,1,0,0,1-.707-.293l-4-4a1,1,0,0,1,0-1.414l4-4a1,1,0,1,1,1.414,1.414L11.414,12l3.293,3.293A1,1,0,0,1,14,17Z" style="fill:#1c1b1e"/></g></svg>
-          </div>
-          <div class="testimonials-btn-next-{{ section.id }}">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Left"><path d="M14,17a1,1,0,0,1-.707-.293l-4-4a1,1,0,0,1,0-1.414l4-4a1,1,0,1,1,1.414,1.414L11.414,12l3.293,3.293A1,1,0,0,1,14,17Z" style="fill:#1c1b1e"/></g></svg>
-          </div>
-          <div class="testimonials-pagination-{{ section.id }} swiper-pagination"></div>
         </div>
-      </div>
+        {% endif %}
       {% if button != blank %}
         <a href="{{ button_url }}" class="testimonials-btn-{{ section.id }}">{{ button }}</a>
       {% endif %}
