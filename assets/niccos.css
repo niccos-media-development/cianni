@@ -78,3 +78,22 @@
 
 }
 /*End PDP marquee*/
+
+.niccos-gift_products {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3.2rem;
+}
+.niccos-form-control.form-control {
+    border-radius: 0;
+}
+.niccos-gift_option dt {
+    white-space: nowrap;
+    font-size: 12px;
+}
+.niccos-gift_option dd {
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 0;
+}
