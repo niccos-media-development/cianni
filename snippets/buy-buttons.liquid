@@ -67,7 +67,7 @@
           <div class="select">
             <select class="niccos-form-control form-control form-control--select" name="properties[Option 1]">
               {% for gift_product in product.metafields.custom.gift_products.value %}
-                <option>{{gift_product.title }}</option>
+                <option value="{{ gift_product.title }}">{{gift_product.title }}</option>
               {% endfor %}
             </select>
             {%- render 'icon-caret-down' -%}
@@ -75,7 +75,7 @@
           <div class="select">
             <select class="niccos-form-control form-control form-control--select" name="properties[Option 2]">
               {% for gift_product in product.metafields.custom.gift_products.value %}
-                <option>{{gift_product.title }}</option>
+                <option value="{{ gift_product.title }}">{{gift_product.title }}</option>
               {% endfor %}
             </select>
             {%- render 'icon-caret-down' -%}
@@ -83,7 +83,7 @@
           <div class="select">
             <select class="niccos-form-control form-control form-control--select" name="properties[Option 3]">
               {% for gift_product in product.metafields.custom.gift_products.value %}
-                <option>{{gift_product.title }}</option>
+                <option value="{{ gift_product.title }}">{{gift_product.title }}</option>
               {% endfor %}
             </select>
             {%- render 'icon-caret-down' -%}
