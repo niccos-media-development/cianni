@@ -19,6 +19,80 @@
       endif
   endcase
 -%}
+{% if product.metafields.custom.gift_products.value != blank %}
+  {% assign compare_at_price = product.compare_at_price %}
+  {% assign price = product.price %}
+  {% assign money_price = price | money %}
+  {% assign amount = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | append: '%' %}
+  <div class="niccos-search-drawer">
+    <div class="search-action-bar">
+      <div class="search_and_close">
+        <div class="search__action">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="search" id="search_product_action" placeholder="Search Here..." />
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </div>
+      <div class="search-action__tab">
+        <div class="tab-item active" data-tag="all">All</div>
+        <div class="tab-item" data-tag="her">Women</div>
+        <div class="tab-item" data-tag="him">Men</div>
+        <div class="tab-item" data-tag="unisex">Unisex</div>
+      </div>
+    </div>
+    <div class="search-product-items">
+      {% for gift_product in product.metafields.custom.gift_products.value %}
+        {%- assign tag_names = '' -%}
+        {% for tag in gift_product.tags %}
+          {%- assign tag_names = tag_names | append: tag -%}
+        {% endfor %}
+        <div class="search-product-item" data-tags="{{ tag_names }}">
+          <div class="search-product-item__info">
+            <div class="search-product-item__title">{{ gift_product.title }}</div>
+            <div class="search-product-item_badges">
+              {% for badge in gift_product.tags %}
+                {% if badge contains "niccos-bestseller" %}
+                  <div class="best_badge">Best Seller</div>
+                {% endif %}
+                {% if badge contains "niccos-him" %}
+                  <div class="him_badge">For him</div>
+                {% endif %}
+                {% if badge contains "niccos-her" %}
+                  <div class="her_badge">For her</div>
+                {% endif %}
+                {% if badge contains 'niccos-unisex' %}
+                  <div class="unisex_badge">Unisex</div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="search-product-item__action">
+            <div class="search-product-item__quantity">
+              <button class="quantity__remove">-</button>
+              <input type="number" name="bundle-quantity" min="1" max="3" class="bundle-quantity" />
+              <button class="quantity__add">+</button>
+            </div>
+            <div class="search-product-item__selector">
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="niccos-search-footer">
+      <div class="success-msg">
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" width="16" height="16" rx="8" fill="#4D8127"></rect>
+          <path d="M4.83149 7.51592L3.5 8.77192L7.39362 12L13.5 5.05698L11.9633 4L7.16762 9.45273L4.83149 7.51592Z" fill="#F4FBEA"></path>
+          <rect x="0.5" y="16" width="16" height="1" fill="#F4FBEA"></rect>
+        </svg>
+        <div class="success-msg_text">{{ amount }} discount applied</div>
+      </div>
+      <button class="choose_btn niccos-search-btn" disabled>Choose 3 fragrances</button>
+      <button class="show_selector-items niccos-search-btn" disabled><span class="select_items"></span>of 3 items selected</button>
+      <button class="add_to_cart_btn niccos-search-btn">Add to cart · {{ money_price }} <span class="compare_at_price">{{ compare_at_price | money }}</span></button>
+    </div>
+  </div>
+{% endif %}
 <product-info
   id="MainProduct-{{ section.id }}"
   data-section="{{ section.id }}"
@@ -99,6 +173,8 @@
     {{ product | structured_data }}
   </script>
 </product-info>
+
+<script src="{{ 'niccos.js' | asset_url }}"></script>
 
 {% schema %}
 {
