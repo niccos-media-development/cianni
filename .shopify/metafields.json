@@ -290,6 +290,16 @@
         "name": "collection_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "gift_products",
+      "namespace": "custom",
+      "name": "Gift Products",
+      "description": "",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [
