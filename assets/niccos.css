@@ -449,7 +449,11 @@
   .mobile-tack-arrows:hover {
     background: none;
     border: none;
-    fill: black;
+    fill: black !important;
+  }
+
+  .mobile-tack-arrows svg {
+    fill: inherit;
   }
 
   .mobile-tack-arrows.right {
