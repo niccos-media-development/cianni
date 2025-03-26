@@ -413,10 +413,6 @@
     height: 5px;
     width: 100%;
   }
-
-  .swiper-slide:not(.swiper-slide-active) {
-    width: 160px !important;
-  }
 }
 
 
