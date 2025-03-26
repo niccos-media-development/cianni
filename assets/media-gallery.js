@@ -90,6 +90,10 @@ if (!customElements.get('media-gallery')) {
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
               centeredSlides: true,
               centeredSlidesBounds: true,
+              navigation: {
+                nextEl: ".mobile-tack-arrows.right",
+                prevEl: ".mobile-tack-arrows.left"
+              },
               breakpoints: {
                 768: {
                   centeredSlides: false,
