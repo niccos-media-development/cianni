@@ -120,9 +120,10 @@ if (!customElements.get('media-gallery')) {
         if (typeof this.sliderInstance !== 'object') {
           if ((this.enableDesktopSlider || this.enableMobileThumbnails) && this.elements.thumbnails) {
             this.thumbsInstance = new window.FoxTheme.Carousel(this.elements.thumbnails, this.thumbsOptions);
-            this.thumbsInstance.on('slideChangeTransitionStart', function () {
-              this.thumbsInstance.params.centeredSlides = !(this.thumbsInstance.isBeginning || this.thumbsInstance.isEnd);
-              this.thumbsInstance.update();
+
+            this.thumbsInstance.slider.on('slideChangeTransitionStart', function () {
+              this.thumbsInstance.slider.params.centeredSlides = !(this.thumbsInstance.slider.isBeginning || this.thumbsInstance.slider.isEnd);
+              this.thumbsInstance.slider.update();
             });
             this.thumbsInstance.init();
 
