@@ -451,6 +451,11 @@
     border: none;
   }
 
+  .mobile-tack-arrows svg {
+    fill: black !important;
+    stroke: black !important;
+  }
+
   .mobile-tack-arrows.right {
     left: unset;
     right: 0;
