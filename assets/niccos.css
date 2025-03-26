@@ -401,10 +401,18 @@
     display: none;
   }
 
-.product__thumbs-container:after {
-  content: unset;
-}
+  .product__thumbs-container:after {
+    content: unset;
+  }
 
+  .product__media-gallery-thumbails .swiper-slide .product__thumbs-container {
+    padding: 0 !important;
+  }
+
+  .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .product__thumbs-container .mobile-tacks {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   
   .mobile-tacks {
     display: block !important;
