@@ -393,7 +393,7 @@
     display: none !important;
   }
 
-  [style*=--aspect-ratio]:before {
+  .product__thumbs-inner[style*=--aspect-ratio]:before {
     padding: 0 !important;
   }
 }
