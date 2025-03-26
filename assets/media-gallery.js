@@ -86,12 +86,14 @@ if (!customElements.get('media-gallery')) {
               },
             });
             break;
-          case 'carousel2':
+          case 'carousel':
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
               centeredSlides: true,
+              centeredSlidesBounds: true,
               breakpoints: {
                 768: {
                   centeredSlides: false,
+                  centeredSlidesBounds: false,
                 },
               },
             });
