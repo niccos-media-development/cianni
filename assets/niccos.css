@@ -410,6 +410,7 @@
   }
 
   .product__media-gallery-thumbails .swiper-slide .product__thumbs-container {
+    padding: 0;
     width: 75%;
     margin: auto;
   }
