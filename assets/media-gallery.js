@@ -90,7 +90,8 @@ if (!customElements.get('media-gallery')) {
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
               breakpoints: {
                 768: {
-                  loop: true
+                  loop: true,
+                  centeredSlides: true
                 },
               },
             });
