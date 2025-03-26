@@ -88,10 +88,10 @@ if (!customElements.get('media-gallery')) {
             break;
           case 'carousel':
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
-              loop: true,
+              centeredSlides: true,
               breakpoints: {
                 768: {
-                  loop: false
+                  centeredSlides: false,
                 },
               },
             });
