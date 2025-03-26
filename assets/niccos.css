@@ -414,8 +414,8 @@
     width: 100%;
   }
 
-  .swiper-slide-active {
-    
+  .swiper-slide:not(.swiper-slide-active) {
+    width: 40px !important;
   }
 }
 
