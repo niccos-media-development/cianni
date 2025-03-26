@@ -410,8 +410,8 @@
   }
 
   .product__media-gallery-thumbails .swiper-slide .product__thumbs-container {
-    padding: 0;
-    width: 75%;
+    padding: 0 !important;
+    width: 50%;
     margin: auto;
   }
 
@@ -420,7 +420,7 @@
   }
 
   .product__media-gallery-thumbails {
-    width: 75%;
+    width: 50%;
   }
   
   .mobile-tacks {
