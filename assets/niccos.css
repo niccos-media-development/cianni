@@ -393,8 +393,8 @@
     display: none !important;
   }
 
-  .product__thumbs-inner > :not(.hide-on-mobile) {
-    display: none !important;
+  .product__thumbs-inner .hide-on-desktop {
+    display: block !important;
   }
 }
 
