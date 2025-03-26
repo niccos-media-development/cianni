@@ -426,9 +426,13 @@
   .mobile-tacks {
     display: block !important;
     border-radius: 20px;
-    background: black;
+    background: #d3d3d3;
     height: 4px;
     width: 100%;
+  }
+
+  .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .mobile-tacks {
+    background: black;
   }
 }
 
