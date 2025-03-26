@@ -1499,7 +1499,6 @@ class AnnouncementBar extends HTMLElement {
             prevEl: this.getPrevSlideButton(),
           },
           loop: true,
-          centeredSlides: true,
           autoplay: this.isAutoplayEnabled() ? { delay: this.getAutoplaySpeed(), pauseOnMouseEnter: true } : false,
         },
         FoxTheme.Swiper.Autoplay
