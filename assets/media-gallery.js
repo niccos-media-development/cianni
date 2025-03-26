@@ -125,12 +125,6 @@ if (!customElements.get('media-gallery')) {
 
             this.thumbsInstance.init();
 
-            this.thumbsInstance.slider.on('slideChangeTransitionStart', function () {
-              this.thumbsInstance.slider.params.centeredSlides = !(this.thumbsInstance.slider.isBeginning || this.thumbsInstance.slider.isEnd);
-              this.thumbsInstance.slider.update();
-            });
-            
-
             this.sliderOptions.thumbs = {
               swiper: this.thumbsInstance.slider,
               autoScrollOffset: 2,
