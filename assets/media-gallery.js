@@ -86,7 +86,7 @@ if (!customElements.get('media-gallery')) {
               },
             });
             break;
-          case 'carousel':
+          case 'carousel2':
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
               centeredSlides: true,
               breakpoints: {
