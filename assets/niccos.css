@@ -411,7 +411,7 @@
 
   .product__media-gallery-thumbails .swiper-slide .product__thumbs-container {
     padding: 0 !important;
-    width: 50%;
+    width: 60%;
     margin: auto;
   }
 
@@ -420,7 +420,7 @@
   }
 
   .product__media-gallery-thumbails {
-    width: 50%;
+    width: 60%;
   }
   
   .mobile-tacks {
