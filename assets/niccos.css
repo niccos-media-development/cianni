@@ -452,6 +452,7 @@
 
   .mobile-tack-arrows svg {
     fill: black !important;
+    transform: scale(0.8);
   }
 
   .mobile-tack-arrows svg path {
