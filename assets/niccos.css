@@ -383,3 +383,8 @@
     text-decoration: line-through;
 }
 
+.grid-original-price {
+    font-size: 10px;
+    margin-top: 6px;
+}
+
