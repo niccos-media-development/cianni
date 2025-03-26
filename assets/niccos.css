@@ -415,7 +415,7 @@
   }
 
   .swiper-slide:not(.swiper-slide-active) {
-    width: 40px !important;
+    width: 160px !important;
   }
 }
 
