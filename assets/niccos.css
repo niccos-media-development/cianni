@@ -398,6 +398,13 @@
   }
 }
 
+.desktop-tacks {
+  border-radius: 20px;
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
 @media screen and (min-width: 750px) {
   .hide-on-desktop {
     display: none !important;
