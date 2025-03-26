@@ -432,6 +432,18 @@
     width: 100%;
   }
 
+  .mobile-tack-arrows {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-tack-arrows.right {
+    left: unset;
+    right: 0;
+  }
+
   .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .mobile-tacks {
     background: black;
   }
