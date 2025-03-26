@@ -86,6 +86,15 @@ if (!customElements.get('media-gallery')) {
               },
             });
             break;
+          case 'carousel':
+            this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
+              breakpoints: {
+                768: {
+                  loop: true
+                },
+              },
+            });
+            break;
           case 'slider-freemode':
             this.sliderOptions = Object.assign({}, this.sliderOptions, {
               slidesPerView: 'auto',
