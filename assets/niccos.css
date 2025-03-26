@@ -388,24 +388,29 @@
     margin-top: 6px;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
   .hide-on-mobile {
     display: none !important;
   }
 
-  .product__thumbs-inner .hide-on-desktop {
-    display: block !important;
+  [style*=--aspect-ratio]:before {
+    padding: 0 !important;
+  }
+
+  .product__thumbs-inner > :not(.hide-on-desktop) {
+    display: none !important;
   }
 }
 
 .desktop-tacks {
+  display: block;
   border-radius: 20px;
   background: black;
   height: 10px;
   width: 100%;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
   .hide-on-desktop {
     display: none !important;
   }
