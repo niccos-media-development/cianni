@@ -396,6 +396,10 @@
   .product__thumbs-inner[style*=--aspect-ratio]:before {
     padding: 0 !important;
   }
+
+  .product__thumbs-inner img {
+    display: none;
+  }
   
   .mobile-tacks {
     display: block;
