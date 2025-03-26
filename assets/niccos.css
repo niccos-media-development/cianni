@@ -396,6 +396,14 @@
   .product__thumbs-inner[style*=--aspect-ratio]:before {
     padding: 0 !important;
   }
+  
+  .mobile-tacks {
+    display: block;
+    border-radius: 20px;
+    background: black;
+    height: 10px;
+    width: 100%;
+  }
 }
 
 
@@ -403,14 +411,6 @@
 @media screen and (min-width: 768px) {
   .hide-on-desktop {
     display: none !important;
-  }
-  
-  .desktop-tacks {
-    display: block;
-    border-radius: 20px;
-    background: black;
-    height: 10px;
-    width: 100%;
   }
 }
 
