@@ -392,6 +392,10 @@
   .hide-on-mobile {
     display: none !important;
   }
+
+  .product__thumbs-inner > :not(.hide-on-mobile) {
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 750px) {
