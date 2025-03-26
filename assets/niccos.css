@@ -442,10 +442,14 @@
     bottom: unset;
     left: 0;
     top: unset;
+    transform: scaleX(-1);
+  }
+
+  .mobile-tack-arrows,
+  .mobile-tack-arrows:hover {
     background: none;
     border: none;
     fill: black;
-    transform: scaleX(-1);
   }
 
   .mobile-tack-arrows.right {
