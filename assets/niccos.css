@@ -417,6 +417,10 @@
   .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .product__thumbs-container {
     padding: 0px !important;
   }
+
+  .product__media-gallery-thumbails {
+    width: 75%;
+  }
   
   .mobile-tacks {
     display: block !important;
