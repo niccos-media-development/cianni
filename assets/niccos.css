@@ -406,7 +406,7 @@
   }
 
   .product__media-gallery-thumbails .swiper-slide .product__thumbs-container {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .product__thumbs-container .mobile-tacks {
