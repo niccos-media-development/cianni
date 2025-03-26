@@ -404,6 +404,7 @@
 .product__thumbs-container:after {
   content: unset;
 }
+
   
   .mobile-tacks {
     display: block !important;
@@ -411,6 +412,10 @@
     background: black;
     height: 5px;
     width: 100%;
+  }
+
+  .swiper-slide-active {
+    
   }
 }
 
