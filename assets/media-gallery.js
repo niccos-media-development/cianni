@@ -89,11 +89,9 @@ if (!customElements.get('media-gallery')) {
           case 'carousel':
             this.thumbsOptions = Object.assign({}, this.thumbsOptions, {
               loop: true,
-              centeredSlides: true,
               breakpoints: {
                 768: {
-                  loop: false,
-                  centeredSlides: false
+                  loop: false
                 },
               },
             });
