@@ -442,11 +442,16 @@
     bottom: 0;
     left: 0;
     top: unset;
+    background: none;
+    border: none;
+    fill: black;
+    transform: scaleX(-1);
   }
 
   .mobile-tack-arrows.right {
     left: unset;
     right: 0;
+    transform: unset;
   }
 
   .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .mobile-tacks {
