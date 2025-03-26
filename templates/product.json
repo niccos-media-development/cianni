@@ -23,8 +23,8 @@
           "type": "niccos_marquee",
           "settings": {
             "marquee_content": "Buy one get one :Free!, No code required!,Buy one get one :Free!, No code required!,Buy one get one :Free!, No code required!",
-            "bg_color": "#000",
-            "main_color": "#fff",
+            "bg_color": "#000000",
+            "main_color": "#ffffff",
             "specific_color": "#dc2626",
             "auto_speed": 3000
           }
@@ -182,7 +182,7 @@
         "enable_sticky_info": true,
         "media_size": "large",
         "gallery_layout": "carousel",
-        "mobile_thumbnails": "show",
+        "mobile_thumbnails": "hide",
         "enable_image_zoom": false,
         "enable_video_looping": false,
         "padding_top": 0,
