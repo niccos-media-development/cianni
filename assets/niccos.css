@@ -402,7 +402,7 @@
   }
   
   .mobile-tacks {
-    display: block;
+    display: block !important;
     border-radius: 20px;
     background: black;
     height: 10px;
