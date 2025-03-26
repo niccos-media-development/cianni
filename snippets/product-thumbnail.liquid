@@ -42,6 +42,7 @@
 (max-width: 768px) calc(100vw - 3rem), calc(((min({{ settings.page_width | plus: 30 }}px, 100vw) * {{ media_width }}) - 4.5rem) / {{ desktop_columns }})
 {%- endif -%}
 {%- endcapture -%}
+<div class="product-thumbnails {% if section.settings.mobile_thumbnails == 'hide' %} hide-on-mobile{% endif %}">
 <div
   role="listitem"
   tabindex="-1"
@@ -149,4 +150,5 @@
         {%- endif -%}
     {%- endcase -%}
   </div>
+</div>
 </div>
