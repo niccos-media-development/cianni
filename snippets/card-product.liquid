@@ -337,8 +337,22 @@
           </div>
         {% endif %}
       </div>
-      <div class="loox-rating" data-id="{{ card_product.id }}" data-rating="{{ card_product.metafields.loox.avg_rating }}" data-raters="{{ card_product.metafields.loox.num_reviews }}"></div>
-{% render 'price', product: product, alignment: settings.pcard_content_alignment %}
+      <div
+        class="loox-rating"
+        data-id="{{ card_product.id }}"
+        data-rating="{{ card_product.metafields.loox.avg_rating }}"
+        data-raters="{{ card_product.metafields.loox.num_reviews }}"
+      ></div>
+      {% if product.metafields.custom.originalpreis != blank %}
+        <div class="grid-original-price">
+          Originalpreis:
+          <span>
+            {{- product.metafields.custom.originalpreis -}}
+            €
+          </span>
+        </div>
+      {% endif %}
+      {% render 'price', product: product, alignment: settings.pcard_content_alignment %}
       {%- if show_color_swatches -%}
         {%- render 'pcard-color-swatch', product: product -%}
       {%- endif -%}
