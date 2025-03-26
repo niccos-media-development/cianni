@@ -400,12 +400,16 @@
   .product__thumbs-inner img {
     display: none;
   }
+
+.product__thumbs-container:after {
+  content: unset;
+}
   
   .mobile-tacks {
     display: block !important;
     border-radius: 20px;
     background: black;
-    height: 10px;
+    height: 5px;
     width: 100%;
   }
 }
