@@ -230,18 +230,17 @@
   {%- endif -%}
 </media-gallery>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 <script>
-  window.addEventListener('load', () => {
-    return;
-    var marquee_swiper = new FoxTheme.Swiper.Swiper(".niccos-marquee__swiper", {
-      speed: {{ auto_speed }},
-      slidesPerView: "auto",
-      loop: true,
-      autoplay: {
-        delay: 0
-      },
-      freeMode: true
-  
-    })
+  var marquee_swiper = new Swiper(".niccos-marquee__swiper", {
+    speed: {{ auto_speed }},
+    slidesPerView: "auto",
+    loop: true,
+    autoplay: {
+      delay: 0
+    },
+    freeMode: true
+
   })
 </script>
