@@ -388,8 +388,18 @@
     margin-top: 6px;
 }
 
+@GalleryThumbnails-{{ section.id }} {
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
   .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .hide-on-desktop {
     display: none !important;
   }
 }
