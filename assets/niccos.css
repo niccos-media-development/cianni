@@ -439,7 +439,7 @@
   .mobile-tack-arrows {
     display: block !important;
     position: absolute;
-    bottom: unset;
+    bottom: -35px;
     left: 0;
     top: unset;
   }
