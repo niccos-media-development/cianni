@@ -395,7 +395,7 @@
 @media screen and (max-width: 767px) {
   .product__media-gallery-viewer-wrap {
     overflow: hidden;
-    padding: 0;
+    padding-bottom: 0 !important;
   }
   
   .hide-on-mobile {
