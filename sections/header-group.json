@@ -86,7 +86,7 @@
         "announcement_bar_RKBMUF": {
           "type": "announcement_bar",
           "settings": {
-            "text": "Kostenloser Versand",
+            "text": "<strong>4 FÜR 2</strong> Aktion! CODE: <strong>DEAL</strong>",
             "link": "",
             "secret-text": "Secret Sale bis Freitag",
             "secret-link": ""
