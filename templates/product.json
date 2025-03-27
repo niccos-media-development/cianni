@@ -21,8 +21,9 @@
       "blocks": {
         "niccos_marquee_rdcWxV": {
           "type": "niccos_marquee",
+          "disabled": true,
           "settings": {
-            "marquee_content": "Buy one get one :Free!, No code required!,Buy one get one :Free!, No code required!,Buy one get one :Free!, No code required!",
+            "marquee_content": "Kaufe eins erhalte eins :gratis!, Kein code benötigt!,Kaufe eins erhalte eins :gratis!, Kein code benötigt!,Kaufe eins erhalte eins :gratis!, Kein code benötigt!",
             "bg_color": "#000000",
             "main_color": "#ffffff",
             "specific_color": "#dc2626",
