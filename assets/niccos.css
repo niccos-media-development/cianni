@@ -436,9 +436,14 @@
     width: 100%;
   }
 
+  .mobile-tacks-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .mobile-tack-arrows {
     display: block !important;
-    position: absolute;
+    position: static !important;
     bottom: unset;
     top: unset;
   }
