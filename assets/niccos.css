@@ -458,6 +458,8 @@
   }
 
   .mobile-tack-arrows svg {
+    object-fit: unset;
+    transform-origin: unset;
     fill: black !important;
     -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
