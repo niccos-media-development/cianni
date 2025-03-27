@@ -393,6 +393,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .product__media-gallery-viewer-wrap {
+    overflow: hidden;
+    padding: 0;
+  }
+  
   .hide-on-mobile {
     display: none !important;
   }
