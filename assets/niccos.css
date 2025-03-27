@@ -440,8 +440,15 @@
     display: block !important;
     position: absolute;
     bottom: unset;
-    left: 0;
     top: unset;
+  }
+
+  .mobile-tack-arrows.right {
+    right: 0 !important;
+  }
+
+  .mobile-tack-arrows.left {
+    left: 0 !important;
   }
 
   .mobile-tack-arrows,
@@ -452,16 +459,13 @@
 
   .mobile-tack-arrows svg {
     fill: black !important;
-    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
   }
 
   .mobile-tack-arrows svg path {
     stroke: black !important;
-  }
-
-  .mobile-tack-arrows.right {
-    left: unset;
-    right: 0;
   }
 
   .product__media-gallery-thumbails .swiper-slide.swiper-slide-thumb-active .mobile-tacks {
