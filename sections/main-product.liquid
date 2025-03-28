@@ -20,8 +20,8 @@
   endcase
 -%}
 {% if product.metafields.custom.gift_products.value != blank %}
-  {% assign compare_at_price = product.compare_at_price %}
-  {% assign price = product.price %}
+  {% assign compare_at_price = product.selected_or_first_available_variant.compare_at_price %}
+  {% assign price = product.selected_or_first_available_variant.price %}
   {% assign money_price = price | money %}
   {% assign amount = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price | append: '%' %}
   <div class="niccos-search-drawer">
