@@ -384,6 +384,7 @@
         "featured_collection_ytHAXL",
         "featured_collection_mzqaBn"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "layout": "split",
