@@ -184,8 +184,8 @@
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 40,
-        "choose_three_item_text": "Wähle deine 3 Düfte",
-        "mobile_placeholder": "Suche nach Düften hier"
+        "choose_three_item_text": "Wähle deine 3 Düfte frei aus:",
+        "mobile_placeholder": "WÄHLE DEINEN DUFT"
       }
     },
     "ss_slider_7_PrBWjp": {
