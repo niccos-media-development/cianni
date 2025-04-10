@@ -52,13 +52,13 @@
             <div class="search-product-item_badges">
               {% for badge in gift_product.tags %}
                 {% if badge contains "niccos-bestseller" %}
-                  <div class="best_badge">Best Seller</div>
+                  <div class="best_badge">Bestseller</div>
                 {% endif %}
                 {% if badge contains "niccos-him" %}
-                  <div class="him_badge">For him</div>
+                  <div class="him_badge">Herren</div>
                 {% endif %}
                 {% if badge contains "niccos-her" %}
-                  <div class="her_badge">For her</div>
+                  <div class="her_badge">Damen</div>
                 {% endif %}
                 {% if badge contains 'niccos-unisex' %}
                   <div class="unisex_badge">Unisex</div>
@@ -85,11 +85,11 @@
           <path d="M4.83149 7.51592L3.5 8.77192L7.39362 12L13.5 5.05698L11.9633 4L7.16762 9.45273L4.83149 7.51592Z" fill="#F4FBEA"></path>
           <rect x="0.5" y="16" width="16" height="1" fill="#F4FBEA"></rect>
         </svg>
-        <div class="success-msg_text">{{ amount }} discount applied</div>
+        <div class="success-msg_text">{{ amount }} Rabatt angewendet</div>
       </div>
-      <button class="choose_btn niccos-search-btn" disabled>Choose 3 fragrances</button>
-      <button class="show_selector-items niccos-search-btn" disabled><span class="select_items"></span>of 3 items selected</button>
-      <button class="add_to_cart_btn niccos-search-btn">Add to cart · {{ money_price }} <span class="compare_at_price">{{ compare_at_price | money }}</span></button>
+      <button class="choose_btn niccos-search-btn" disabled>Wähle drei Düfte aus</button>
+      <button class="show_selector-items niccos-search-btn" disabled><span class="select_items"></span>von 3 Düften gewählt</button>
+      <button class="add_to_cart_btn niccos-search-btn">In den Warenkorb · {{ money_price }} <span class="compare_at_price">{{ compare_at_price | money }}</span></button>
     </div>
   </div>
 {% endif %}
