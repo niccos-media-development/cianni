@@ -182,23 +182,25 @@
                                 {%- endfor -%}
                               {%- endif -%}
       
-                              {%- for property in item.properties -%}
-                                {%- assign property_first_char = property.first | slice: 0 -%}
-                                {%- if property.last != blank and property_first_char != '_' -%}
-                                  <div class="flex gap-1 niccos-gift_option">
-                                    <dt>{{ property.first }}:&nbsp;</dt>
-                                    <dd>
-                                      {%- if property.last contains '/uploads/' -%}
-                                        <a href="{{ property.last }}" class="link" target="_blank" aria-describedby="a11y-new-window-message">
-                                          {{- property.last | split: '/' | last -}}
-                                        </a>
-                                      {%- else -%}
-                                        {{- property.last -}}
-                                      {%- endif -%}
-                                    </dd>
-                                  </div>
-                                {%- endif -%}
-                              {%- endfor -%}
+                             {%- assign duft_index = 0 -%}
+{%- for property in item.properties -%}
+  {%- assign property_first_char = property.first | slice: 0 -%}
+  {%- if property.last != blank and property_first_char != '_' -%}
+    {%- assign duft_index = duft_index | plus: 1 -%}
+    <div class="flex gap-1 niccos-gift_option">
+      <dt>Duft {{ duft_index }}:&nbsp;</dt>
+      <dd>
+        {%- if property.last contains '/uploads/' -%}
+          <a href="{{ property.last }}" class="link" target="_blank" aria-describedby="a11y-new-window-message">
+            {{- property.last | split: '/' | last -}}
+          </a>
+        {%- else -%}
+          {{- property.last -}}
+        {%- endif -%}
+      </dd>
+    </div>
+  {%- endif -%}
+{%- endfor -%}
                               {%- if item.selling_plan_allocation != null -%}
                                 <p class="text-sm text-subtext">{{ item.selling_plan_allocation.selling_plan.name }}</p>
                               {%- endif -%}
