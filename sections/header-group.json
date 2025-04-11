@@ -86,7 +86,7 @@
         "announcement_bar_RKBMUF": {
           "type": "announcement_bar",
           "settings": {
-            "text": "Kostenloser Versand ab 30€",
+            "text": "<strong>4 FÜR 2</strong> Aktion! CODE: <strong>DEAL</strong>",
             "link": "",
             "secret-text": "Kostenloser Versand ab 30€",
             "secret-link": ""
