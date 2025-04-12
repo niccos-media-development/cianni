@@ -30,7 +30,7 @@
         "text_NHxKKL": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1 KAUFEN + 1 GRATIS<br/>2 KAUFEN + 2 GRATIS<br/></strong></p>",
+            "text": "<p><strong>1 KAUFEN + 1 GRATIS<br/>2 KAUFEN + 2 GRATIS<br/>3 KAUFEN + 3 GRATIS</strong></p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
