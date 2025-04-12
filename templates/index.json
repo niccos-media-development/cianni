@@ -108,6 +108,20 @@
             "button_border_color": "#2dc179",
             "button_border_hover_color": "#FFFFFF"
           }
+        },
+        "text_JrN7gG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KEIN CODE NOTWENDIG</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 12,
+            "text_height": 150,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_color": "#FFFFFF"
+          }
         }
       },
       "block_order": [
@@ -115,7 +129,8 @@
         "text_NHxKKL",
         "text_YN8NjK",
         "button_zrTVri",
-        "button_hxWGTf"
+        "button_hxWGTf",
+        "text_JrN7gG"
       ],
       "settings": {
         "layout_height": "auto",
