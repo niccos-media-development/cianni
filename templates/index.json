@@ -24,13 +24,13 @@
             "heading_mt": 24,
             "heading_mt_mobile": 20,
             "heading_color": "#2dc179",
-            "heading_border_color": "#FFFFFF"
+            "heading_border_color": "#ffffff"
           }
         },
         "text_NHxKKL": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>1 KAUFEN + 1 GRATIS<br/>2 KAUFEN + 2 GRATIS<br/>3 KAUFEN + 3 GRATIS</strong></p>",
+            "text": "<p><strong>1 ZAHLEN + 1 GRATIS<br/>2 ZAHLEN + 2 GRATIS<br/>3 ZAHLEN + 3 GRATIS</strong></p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
@@ -38,7 +38,7 @@
             "text_height": 150,
             "text_mt": 20,
             "text_mt_mobile": 20,
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         },
         "text_YN8NjK": {
@@ -52,7 +52,7 @@
             "text_height": 150,
             "text_mt": 20,
             "text_mt_mobile": 20,
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         },
         "button_zrTVri": {
@@ -74,12 +74,12 @@
             "button_mt": 16,
             "button_mt_mobile": 12,
             "button_style": "outline",
-            "button_color": "#FFFFFF",
+            "button_color": "#ffffff",
             "button_hover_color": "#2dc179",
             "button_bg_color": "#2dc179",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#2dc179",
-            "button_border_hover_color": "#FFFFFF"
+            "button_border_hover_color": "#ffffff"
           }
         },
         "button_hxWGTf": {
@@ -101,12 +101,12 @@
             "button_mt": 16,
             "button_mt_mobile": 12,
             "button_style": "outline",
-            "button_color": "#FFFFFF",
+            "button_color": "#ffffff",
             "button_hover_color": "#2dc179",
             "button_bg_color": "#2dc179",
-            "button_bg_hover_color": "#FFFFFF",
+            "button_bg_hover_color": "#ffffff",
             "button_border_color": "#2dc179",
-            "button_border_hover_color": "#FFFFFF"
+            "button_border_hover_color": "#ffffff"
           }
         },
         "text_JrN7gG": {
@@ -120,7 +120,7 @@
             "text_height": 150,
             "text_mt": 20,
             "text_mt_mobile": 20,
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         }
       },
@@ -144,7 +144,7 @@
         "content_vertical_align": "center",
         "content_vertical_align_mobile": "center",
         "bg_image_overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
