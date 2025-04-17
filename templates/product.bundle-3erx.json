@@ -674,6 +674,7 @@
     },
     "featured_collection_bPV8mj": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "header_layout": "vertical",
