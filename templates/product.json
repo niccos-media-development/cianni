@@ -48,6 +48,7 @@
         },
         "smell_yGgbKY": {
           "type": "smell",
+          "disabled": true,
           "settings": {}
         },
         "text_WfFy4T": {
